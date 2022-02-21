@@ -10,7 +10,7 @@
         <th>Notes</th>
     </tr>
     <tr>
-        <td colspan = "3" style="text-align:center; font-size:1.5em"><b>The Journey Begins</b></td>
+        <td colspan = "3" style="text-align:center; font-size:2em"><b>The Journey Begins</b></td>
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/Add.java">1</a> </td>
@@ -33,12 +33,17 @@
         <td>First instance using String.split() which in fact uses regex, not a char/charsequence to find that specific grouping. Which means, it can use "" (an empty string) to turn any string into a <b>String</b> (as opposed to a CharSequence[]). <br/> Also the first time a for loop is used. While the initializer is standard to make it extra, the conditional is not the usual < length(), but since it's checking the back to front (or vice versa), it only needs to go halfway. Otherwise they'd just cross each other and check the values from the other side.</td>
     </tr>
     <tr>
-        <td colspan = "3" style="text-align:center; font-size:1.5em"><b>Edge of the Ocean</b></td>
+        <td colspan = "3" style="text-align:center; font-size:2em"><b>Edge of the Ocean</b></td>
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/AdjacentElementsProduct.java">4</a> </td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/xzKiBHjhoinnpdh6m">Adjacent Elements Product</a></td>
         <td>A fun one. Iterate over an array of ints and find the greatest product of two adjacent ints. Using Integer.max(int a, int b) to evaluate the current highest against the current product makes for quick work, and looks cleaner than an if-else statement or ternary.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/ShapeArea.java">5</a> </td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/yuGuHvcCaFCKk56rJ">Shape Area</a></td>
+        <td>I'm not a mathematician, but I believe this is a factorial. My solution is not so clean as that, instead taking the long way round using a for loop. It gets to the same place, but I haven't progressed yet to see the pattern here. That's the truth atm, and I show the code I wrote and comfortably understand.</td>
     </tr>
 
 </table>

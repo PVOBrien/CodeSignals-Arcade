@@ -1,4 +1,4 @@
-package TheJourneyBegins;
+package Intro;
 
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
@@ -68,5 +68,42 @@ public class EdgeOfTheOceanTest {
             int[] inputArray = new int[]{1, 0, 1, 0, 1000};
             assertEquals(0, aEP.solution(inputArray));
         }
+    }
+
+    @Nested
+    @DisplayName("Shape Area")
+    public class ShapeAreaTest {
+
+        ShapeArea sAT = new ShapeArea();
+
+        @Test
+        public void sAT1() { assertEquals(5, sAT.solution(2)); }
+
+        @Test
+        public void sAT2() { assertEquals(13, sAT.solution(3)); }
+
+        @Test
+        public void sAT3() { assertEquals(1, sAT.solution(1)); }
+
+        @Test
+        public void sAT4() { assertEquals(41, sAT.solution(5)); }
+
+        @Test
+        public void sAT5() { assertEquals(97986001, sAT.solution(7000)); }
+
+        @Test
+        public void sAT6() { assertEquals(127984001, sAT.solution(8000)); }
+
+        @Test
+        public void sAT7() { assertEquals(199940005, sAT.solution(9999)); }
+
+        @Test
+        public void sAT8() { assertEquals(199900013, sAT.solution(9998)); }
+
+        @Test
+        public void sAT9() { assertEquals(161946005, sAT.solution(8999)); }
+
+        @Test
+        public void sAT10() { assertEquals(19801, sAT.solution(100)); }
     }
 }
