@@ -55,4 +55,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG">Almost Increasing Sequence</a></td>
         <td><a href="https://vimeo.com/680173184/1b7ca06cde">Video Walkthrough</a> of my code versus the better submitted answer on Code Signal.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/ShapeArea.java">8</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr">Matrix Elements Sum</a></td>
+        <td><a href="https://vimeo.com/680179823/7565d2bbe8">Video Walkthrough</a> of my code versus the better submitted answer on Code Signal.</td>
+    </tr>
 </table>

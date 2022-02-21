@@ -263,4 +263,72 @@ public class EdgeOfTheOceanTest {
             assertTrue(aIS.solution(testArr));
         }
     }
+
+    @Nested
+    @DisplayName("MatrixElementsSum")
+    public class MatrixElementsSumTest {
+
+        MatrixElementsSum mES = new MatrixElementsSum();
+
+        @Test
+        public void mEST1() {
+            int[][] testArr = {{0,1,1,2}, {0,5,0,0}, {2,0,3,3}};
+            assertEquals(9, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST2() {
+            int[][] testArr = {{1,1,1,0}, {0,5,0,1}, {2,1,3,0}};
+            assertEquals(9, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST3() {
+            int[][] testArr = {{1,1,1},{2,2,2}, {3,3,3}};
+            assertEquals(18, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST4() {
+            int[][] testArr = {{0}};
+            assertEquals(0, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST5() {
+            int[][] testArr = {{1,0,3}, {0,2,1}, {1,2,0}};
+            assertEquals(5, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST6() {
+            int[][] testArr = {{1}, {5}, {0}, {2}};
+            assertEquals(6, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST7() {
+            int[][] testArr = {{1,2,3,4,5}};
+            assertEquals(15, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST8() {
+            int[][] testArr = {{2}, {5}, {10}};
+            assertEquals(17, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST9() {
+            int[][] testArr = {{4,0,1}, {10,7,0}, {0,0,0}, {9,1,2}};
+            assertEquals(15, mES.solution(testArr));
+        }
+
+        @Test
+        public void mEST10() {
+            int[][] testArr = {{1}};
+            assertEquals(1, mES.solution(testArr));
+        }
+
+    }
 }
