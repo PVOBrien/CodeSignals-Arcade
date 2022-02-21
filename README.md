@@ -17,6 +17,6 @@
 <tr>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-1/egbueTZRRL5Mm4TXN">CenturyFromYear</a></td>
         <td>Using Math.ceil() and the division operator</td>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/Add.java">1</a> </td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/TheJourneyBegins/CenturyFromYear.java">1</a> </td>
     </tr>
 </table>
