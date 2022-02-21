@@ -1,4 +1,4 @@
-package TheJourneyBegins;
+package Intro;
 
 public class AdjacentElementsProduct {
     int solution(int[] inputArray) {
