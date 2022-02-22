@@ -124,4 +124,14 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/EEJxjQ7oo7C5wAGjE">Array Maximal Adjacent Difference</a></td>
         <td>Fun one, involving Math.abs() and Math.max()</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsIPv4Address.java">21</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/veW5xJednTy4qcjso">Is IPv4 Address</a></td>
+        <td>Say hello to regex. Hi!</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AvoidObstacles.java">22</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5">Avoid Obstacles</a></td>
+        <td>I went the wrong way on this one. It asked for the lowest possible jump. For whatever reason my mind went to: lets start at the highest possible option and work down! It's as inefficient a happy path can get! :facepalm: Anyway, it's my code. The correct way would be to start at the lowest point, and at the first possible "jump", break. End of story. My code rolls through EVERY SINGLE AVAILABLE OPTION. The smart one finds the first answer (which is the correct one) and calls it a day. Idk what I was thinking.</td>
+    </tr>
 </table>
