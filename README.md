@@ -78,4 +78,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/D6qmdBL2NYz49XHwM">Sort By Height</a></td>
         <td>Proud of this one; the highest rated answer to this is a brute force method. I took the tactic of gathering up the people, sorting them ascending, then redistributing them back between "the trees".</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ReverseInParentheses.java">12</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6">Reverse In Parentheses</a></td>
+        <td>This one caught me up in that it wasn't always looking for the first and last matching parentheses and that there would be nested parentheses. So I used a Stack marking where the latest '(' was, then matching it with the next ')'. I do have an escape case if there is only "()" because they made that a thing which I feel is bad form because that's an only edge case, or if it's not, then they don't test for anything besides the happiest case, so definitely on them for all the downvotes on this test.</td>
+    </tr>
 </table>

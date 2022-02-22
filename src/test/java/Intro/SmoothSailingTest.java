@@ -212,4 +212,47 @@ public class SmoothSailingTest {
 
     }
 
+    @Nested
+    @DisplayName("Reverse In Parentheses")
+    public class ReverseInParenthesesTest {
+
+        ReverseInParentheses rIP = new ReverseInParentheses();
+
+        @Test
+        public void rIPTest1() {
+            assertEquals("rab", rIP.solution("(bar)"));
+        }
+
+        @Test
+        public void rIPTest2() {
+            assertEquals("foorabbaz", rIP.solution("foo(bar)baz"));
+        }
+
+        @Test
+        public void rIPTest3() {
+            assertEquals("foorabbazmilb", rIP.solution("foo(bar)baz(blim)"));
+        }
+
+        @Test
+        public void rIPTest4() {
+            assertEquals("foobazrabblim", rIP.solution("foo(bar(baz))blim"));
+        }
+
+        @Test
+        public void rIPTest5() {
+            assertEquals("", rIP.solution(""));
+        }
+
+        @Test
+        public void rIPTest6() {
+            assertEquals("()", rIP.solution("()"));
+        }
+
+        @Test
+        public void rIPTest7() {
+            assertEquals("cbadgfe", rIP.solution("(abc)d(efg)"));
+        }
+
+    }
+
 }
