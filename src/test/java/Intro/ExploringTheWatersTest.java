@@ -103,4 +103,82 @@ public class ExploringTheWatersTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Are Similar")
+    public class AreSimilarTest {
+
+        AreSimilar aS = new AreSimilar();
+
+        @Test
+        public void asTest1() {
+            int[] arrOne = {1, 2, 3};
+            int[] arrTwo = {1, 2, 3};
+            assertTrue(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest2() {
+            int[] arrOne = {1, 2, 3};
+            int[] arrTwo = {2, 1, 3};
+            assertTrue(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest3() {
+            int[] arrOne = {1, 2, 2};
+            int[] arrTwo = {2, 1, 1};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest4() {
+            int[] arrOne = {1, 1, 4};
+            int[] arrTwo = {1, 2, 3};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest5() {
+            int[] arrOne = {1, 2, 3};
+            int[] arrTwo = {1, 10, 2};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest6() {
+            int[] arrOne = {2, 3, 1};
+            int[] arrTwo = {1, 3, 2};
+            assertTrue(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest7() {
+            int[] arrOne = {2, 3, 9};
+            int[] arrTwo = {10, 3, 2};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest8() {
+            int[] arrOne = {4, 6, 3};
+            int[] arrTwo = {3, 4, 6};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest9() {
+            int[] arrOne = {832, 998, 148, 570, 533, 561, 894, 147, 455, 279};
+            int[] arrTwo = {832, 998, 148, 570, 533, 561, 455, 147, 894, 279};
+            assertTrue(aS.solution(arrOne, arrTwo));
+        }
+
+        @Test
+        public void asTest10() {
+            int[] arrOne = {832, 998, 148, 570, 533, 561, 894, 147, 455, 279};
+            int[] arrTwo = {832, 570, 148, 998, 533, 561, 455, 147, 894, 279};
+            assertFalse(aS.solution(arrOne, arrTwo));
+        }
+
+    }
 }

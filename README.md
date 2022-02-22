@@ -94,6 +94,11 @@
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AddBorder.java">15</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN">Add Border</a></td>
-        <td>Nothing fancy here, just make a border. StringBuilder() makes an appearance. Could have used String.repeate to make the top and bottom borders. Next time improvement.</td>
+        <td>Nothing fancy here, just make a border. StringBuilder() makes an appearance. Could have used String.repeat() to make the top and bottom borders. Next time improvement.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AreSimilar.java">16</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/xYXfzQmnhBvEKJwXP">Are Similar</a></td>
+        <td>This one had a poor description against its examples; it could seem that you can only swap two neighboring numbers. Not the case. The numbers could be swapped anywhere in the array. The examples only showed the happiest happy case. So protrip, if you think it's going to take more than 5 minutes to get a first run algorithm in place check the tests to see if your algorithm should/could hold up.<br>My code works just fine seeing as it literally swaps the numbers. Not the fastest, it is brute force, but works. The most elegant answer on the leaderboards has it such that whenever the two ints match, a hit count increments, but then the special sauce is such that the algorithm has two variables that multiplies 1 times the mismatch for that mismatch. Then, if those two variables aren't equal at the end, then there were different ints in those indexes. I have a feeling there are edge cases that might trip this up, but the test cases don't bring any of those out. So it's much sharper code than mine albeit perhaps has edge cases it doesn't (can't?) account for.</td>
     </tr>
 </table>
