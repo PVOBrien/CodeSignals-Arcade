@@ -59,28 +59,36 @@
         <td colspan="3" style="text-align:center; font-size:2em;"><b>Smooth Sailing</b></td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AllLongestStrings.java">8</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AllLongestStrings.java">9</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/fzsCQGYbxaEcTr2bL">All Longest Strings</a></td>
         <td>This one was a fun one. So it's O(N), going through once to find the greatest length string, then for the second go round it collects them via a stream into a new String array, filtering off the string's length then adding it to the array. There's also the mention of .toArray(String[]::new, and the first instance of the enhanced for loop. The enhanced for loop is less verbose, at the cost of no "i" to refer to, so there is a drawback if you need an "i".</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/CommonCharacterCount.java">9</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/CommonCharacterCount.java">10</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/JKKuHJknZNj4YGL32">Common Character Count</a></td>
         <td>My code is not the leanest, but I used individual HashMaps to track how many letters were in each String, then iterated through the first HashMap using the Map.entry<> entry : HashMap().entrySet, checking against the second Hashmap, and if there's a match, using Math.min() to tick up the final count. The other examples with their tighter code, created an int[] because char are interpreted as int. They subtract the value of char 'a' so the alphabet starts at 0, otherwise the english alphabet starts at 97.</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsLucky.java">10</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsLucky.java">11</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/3AdBC97QNuhF6RwsQ">Is Lucky</a></td>
         <td>A fun bit of work splitting the string into half, then adding them up, so there is plenty use of parsing ints and putting them to strings. Other examples got there faster by using the char values and checking that at the end the difference was 0, ie they were equal when all's said and done. Nice.</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/SortByHeight.java">11</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/SortByHeight.java">12</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/D6qmdBL2NYz49XHwM">Sort By Height</a></td>
         <td>Proud of this one; the highest rated answer to this is a brute force method. I took the tactic of gathering up the people, sorting them ascending, then redistributing them back between "the trees".</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ReverseInParentheses.java">12</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ReverseInParentheses.java">13</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-3/9DgaPsE2a7M6M2Hu6">Reverse In Parentheses</a></td>
         <td>This one caught me up in that it wasn't always looking for the first and last matching parentheses and that there would be nested parentheses. So I used a Stack marking where the latest '(' was, then matching it with the next ')'. I do have an escape case if there is only "()" because they made that a thing which I feel is bad form because that's an only edge case, or if it's not, then they don't test for anything besides the happiest case, so definitely on them for all the downvotes on this test.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;"><b>Exploring The Waters</b></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AlternatingSums.java">14</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/cC5QuL9fqvZjXJsW9">Alternating Sums</a></td>
+        <td><a href="https://vimeo.com/680235402/4ab4a0f461">Discussion</a> of a much more elegant solution code than mine.</td>
     </tr>
 </table>
