@@ -134,4 +134,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/XC9Q2DhRRKQrfLhb5">Avoid Obstacles</a></td>
         <td>I went the wrong way on this one. It asked for the lowest possible jump. For whatever reason my mind went to: lets start at the highest possible option and work down! It's as inefficient a happy path can get! :facepalm: Anyway, it's my code. The correct way would be to start at the lowest point, and at the first possible "jump", break. End of story. My code rolls through EVERY SINGLE AVAILABLE OPTION. The smart one finds the first answer (which is the correct one) and calls it a day. Idk what I was thinking.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/BoxBlur.java">23</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/5xPitc3yT3dqS7XkP">Box Blur</a></td>
+        <td>Another fun one, needing to dial in targeting what ints to start and end with in your for loop. That and I was incorrectly casting the floats to ints too soon, making it problematically lossy. Protip: cast to int at the last possible instance, or at least be aware that casting it sooner than later will be a reason for different results</td>
+    </tr>
 </table>
