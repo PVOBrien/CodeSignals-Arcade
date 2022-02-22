@@ -111,4 +111,61 @@ public class SmoothSailingTest {
 
     }
 
+    @Nested
+    @DisplayName("is Lucky")
+    public class IsLuckyTest {
+        IsLucky iL = new IsLucky();
+
+        @Test
+        public void iLTest1() {
+            assertTrue(iL.solution(1230));
+        }
+
+        @Test
+        public void iLTest2() {
+            assertFalse(iL.solution(239017));
+        }
+
+        @Test
+        public void iLTest3() {
+            assertTrue(iL.solution(134008));
+        }
+
+        @Test
+        public void iLTest4() {
+            assertFalse(iL.solution(10));
+        }
+
+        @Test
+        public void iLTest5() {
+            assertTrue(iL.solution(11));
+        }
+
+        @Test
+        public void iLTest6() {
+            assertTrue(iL.solution(1010));
+        }
+
+        @Test
+        public void iLTest7() {
+            assertFalse(iL.solution(261534));
+        }
+
+        @Test
+        public void iLTest8() {
+            assertFalse(iL.solution(100000));
+        }
+
+        @Test
+        public void iLTest9() {
+            assertTrue(iL.solution(999999));
+        }
+
+        @Test
+        public void iLTest10() {
+            assertTrue(iL.solution(123321));
+        }
+
+    }
+
 }
