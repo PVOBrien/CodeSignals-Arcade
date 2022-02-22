@@ -78,4 +78,37 @@ public class SmoothSailingTest {
 
     }
 
+    @Nested
+    @DisplayName("Common Character Count")
+    public class CommonCharacterCountTest {
+
+        CommonCharacterCount ccc = new CommonCharacterCount();
+
+        @Test
+        public void cccT1() {
+            assertEquals(3, ccc.solution("aabcc", "adcaa"));
+        }
+
+        @Test
+        public void cccT2() {
+            assertEquals(4, ccc.solution("zzzz", "zzzzzzz"));
+        }
+
+        @Test
+        public void cccT3() {
+            assertEquals(3, ccc.solution("abca", "xyzbac"));
+        }
+
+        @Test
+        public void cccT4() {
+            assertEquals(0, ccc.solution("a", "b"));
+        }
+
+        @Test
+        public void cccT5() {
+            assertEquals(1, ccc.solution("a", "aaa"));
+        }
+
+    }
+
 }
