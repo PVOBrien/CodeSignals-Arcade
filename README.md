@@ -91,4 +91,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/cC5QuL9fqvZjXJsW9">Alternating Sums</a></td>
         <td><a href="https://vimeo.com/680235402/4ab4a0f461">Discussion</a> of a much more elegant solution code than mine.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AddBorder.java">15</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN">Add Border</a></td>
+        <td>Nothing fancy here, just make a border. StringBuilder() makes an appearance.</td>
+    </tr>
 </table>
