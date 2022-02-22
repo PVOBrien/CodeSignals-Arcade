@@ -94,6 +94,6 @@
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AddBorder.java">15</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/ZCD7NQnED724bJtjN">Add Border</a></td>
-        <td>Nothing fancy here, just make a border. StringBuilder() makes an appearance.</td>
+        <td>Nothing fancy here, just make a border. StringBuilder() makes an appearance. Could have used String.repeate to make the top and bottom borders. Next time improvement.</td>
     </tr>
 </table>

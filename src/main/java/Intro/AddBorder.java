@@ -13,7 +13,7 @@ public class AddBorder {
         result[result.length-1] = border.toString();
 
         for (int i = 0; i < picture.length; i++) {
-            result[i+1] = new StringBuilder().append("*").append(picture[i]).append("*").toString();
+            result[i+1] = "*" + picture[i] + "*";
         }
 
         return result;
