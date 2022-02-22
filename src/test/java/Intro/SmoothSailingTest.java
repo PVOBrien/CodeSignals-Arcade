@@ -168,4 +168,48 @@ public class SmoothSailingTest {
 
     }
 
+    @Nested
+    @DisplayName("Sort By Height")
+    public class SortByHeightTest {
+
+        SortByHeight sBH = new SortByHeight();
+
+        @Test
+        public void sBHTest1() {
+            int[] testArr = {-1, 150, 190, 170, -1, -1, 160, 180};
+            assertArrayEquals( new int[]{-1, 150, 160, 170, -1, -1, 180, 190}, sBH.solution(testArr));
+        }
+
+        @Test
+        public void sBHTest2() {
+            int[] testArr = {-1, -1, -1, -1, -1};
+            assertArrayEquals( new int[]{-1, -1, -1, -1, -1}, sBH.solution(testArr));
+        }
+
+        @Test
+        public void sBHTest3() {
+            int[] testArr = {-1};
+            assertArrayEquals( new int[]{-1}, sBH.solution(testArr));
+        }
+
+        @Test
+        public void sBHTest4() {
+            int[] testArr = {4, 2, 9, 11, 2, 16};
+            assertArrayEquals( new int[]{2, 2, 4, 9, 11, 16}, sBH.solution(testArr));
+        }
+
+        @Test
+        public void sBHTest5() {
+            int[] testArr = {2, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 1};
+            assertArrayEquals( new int[]{1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, 2}, sBH.solution(testArr));
+        }
+
+        @Test
+        public void sBHTest6() {
+            int[] testArr = {23, 54, -1, 43, 1, -1, -1, 77, -1, -1, -1, 3};
+            assertArrayEquals( new int[]{1, 3, -1, 23, 43, -1, -1, 54, -1, -1, -1, 77}, sBH.solution(testArr));
+        }
+
+    }
+
 }
