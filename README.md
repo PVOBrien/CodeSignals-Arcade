@@ -106,4 +106,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/xvkRbxYkdHdHNCKjg">ArrayChange</a></td>
         <td>Wasn't my favorite, but not certain why it has double the down votes as up (as of 2022-02-21). There are numerous places for "off-by-one" errors because you have to be exclusive in some places and inclusive in others. But... I think I followed my advice and checked the test cases to get a better idea what they wanted, because the description is vague at best. So again, read <i>everything</i> they give you before you start if you have any doubts.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/PalindromeRearranging.java">18</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-4/Xfeo7r9SBSpo3Wico">Palindrome Rearranging</a></td>
+        <td>The palindrome. This is a starter palindrome, but if you haven't hit a couple, you might think you have to build one or something. No, this is simply checking that each character has a pair with one exception allowed (that char would be in the middle).</td>
+    </tr>
 </table>

@@ -379,4 +379,62 @@ public class ExploringTheWatersTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Palindrome Rearranging")
+    public class PalindromeRearrangingTest {
+
+        PalindromeRearranging pR = new PalindromeRearranging();
+
+        @Test
+        public void pRTest1() {
+            assertTrue(pR.solution("aabb"));
+        }
+
+        @Test
+        public void pRTest2() {
+            assertFalse(pR.solution("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabc"));
+        }
+
+        @Test
+        public void pRTest3() {
+            assertTrue(pR.solution("abbcabb"));
+        }
+
+        @Test
+        public void pRTest4() {
+            assertTrue(pR.solution("zyyzzzzz"));
+        }
+
+        @Test
+        public void pRTest5() {
+            assertTrue(pR.solution("z"));
+        }
+
+        @Test
+        public void pRTest6() {
+            assertTrue(pR.solution("zaa"));
+        }
+
+        @Test
+        public void pRTest7() {
+            assertFalse(pR.solution("abca"));
+        }
+
+        @Test
+        public void pRTest8() {
+            assertFalse(pR.solution("abcad"));
+        }
+
+        @Test
+        public void pRTest9() {
+            assertFalse(pR.solution("aaaaaaaaaaaaaaaaaaaaaaaaaaaaaabbbccccaaaaaaaaaaaaa"));
+        }
+
+        @Test
+        public void pRTest10() {
+            assertFalse(pR.solution("abdhuierf"));
+        }
+
+    }
 }
