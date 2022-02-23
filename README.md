@@ -144,4 +144,17 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-5/ZMR5n7vJbexnLrgaM">Minesweeper</a></td>
         <td>It's a minesweeper board builder. For Java, I get the feeling that Minesweeper is a tough nut. My code isn't the concise, but I feel it's very legible, walking through the edge cases (literally, the edges), then getting to the meat of it, and it's correct. It's nothing fancy, just straightforward checking and edge cases.</td>
     </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;"><b>Rains of Reason</b></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ArrayReplace.java">25</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/mCkmbxdMsMTjBc3Bm">ArrayReplace</a></td>
+        <td>I got to straight return an Arrays.stream() to a map, and that was that. Felt great!</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/EvenDigitsOnly.java">26</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/6cmcmszJQr6GQzRwW">Even Digits Only</a></td>
+        <td>Another straightforward one, check that an integer's digits are all even. Lots of ways to solve this - regex, checking the char, modulo... all of them work, all of them are just a couple lines.</td>
+    </tr>
 </table>
