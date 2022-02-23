@@ -162,4 +162,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/6Wv4WsrsMJ8Y2Fwno">Variable Name</a></td>
         <td>Regex! Okay, this one got me for a few more moments than I'd like to admit, for whatever reason the "_" threw me. Otherwise: regex! dsl!</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AlphabeticShift.java">28</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/PWLT8GBrv9xXy4Dui">Alphabetic Shift</a></td>
+        <td>Alphabet shift. "a" = "b", b to c, etc. The only more elegant solution was to use the modulo operator + 'a' to find the next value, seeing as the module would find the remainder 0-25, and then it "adds" 'a' (because it's a char, it is read/interpreted as an int), and voila, you have shifted the character by one.</td>
+    </tr>
 </table>

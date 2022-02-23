@@ -1,5 +1,6 @@
 package Intro;
 
+import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -195,6 +196,39 @@ public class RainsOfReasonTest {
         @Test
         public void vNTest10() {
             assertFalse(vN.solution("0ss"));
+        }
+
+    }
+
+    @Nested
+    @DisplayName("Alphabetic Shift")
+    public class AlphabeticShiftTest {
+
+        AlphabeticShift aS = new AlphabeticShift();
+
+        @Test
+        public void aSTest1() {
+            assertEquals("dsbaz", aS.solution("crazy"));
+        }
+
+        @Test
+        public void aSTest2() {
+            assertEquals("a", aS.solution("z"));
+        }
+
+        @Test
+        public void aSTest3() {
+            assertEquals("bbbbcccdde", aS.solution("aaaabbbccd"));
+        }
+
+        @Test
+        public void aSTest4() {
+            assertEquals("gvaaz", aS.solution("fuzzy"));
+        }
+
+        @Test
+        public void aSTest5() {
+            assertEquals("dpeftjhobm", aS.solution("codesignal"));
         }
 
     }
