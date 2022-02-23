@@ -218,4 +218,7 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5">Array Max Consecutive Sum</a></td>
         <td>Summing a range in an array.</td>
     </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;"><b>Dark Wilderness</b></td>
+    </tr>
 </table>
