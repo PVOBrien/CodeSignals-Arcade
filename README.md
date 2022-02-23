@@ -213,4 +213,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ">Different Symbols Naive</a></td>
         <td>Find all the unique characters in a string. I tossed them into a hashset and returned the size. The better way is to stream the chars, put it through distinct and then return the count (being sure to cast it as an int). TIL you can stream a string by simply starting with .chars(). Nice!</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ArrayMaxConsecutiveSum.java">37</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5">Array Max Consecutive Sum</a></td>
+        <td>Summing a range in an array.</td>
+    </tr>
 </table>
