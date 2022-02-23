@@ -200,7 +200,12 @@
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ExtractEachKth.java">33</a></td>
-        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-7/PTWhv2oWqd6p4AHB9">Extract Each Kth</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R">Extract Each Kth</a></td>
+        <td>This was about finding a <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">"Hamiltonian Path"</a>. And it seems that a Hamiltonian Path can only be brute forced. So... besides recursion, there wasn't anything interesting in this challenge, and I admit I didn't ace this one, I got to 242/300 on my own before I called it quits and studied up on the others and thus learning I was trying to find something special to solve it. Nope. Answer is brute force. Did not like, down voted. This one was both significantly tougher, and more obtuse than all others.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ExtractEachKth.java">33</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R">Extract Each Kth</a></td>
         <td>This was about finding a <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">"Hamiltonian Path"</a>. And it seems that a Hamiltonian Path can only be brute forced. So... besides recursion, there wasn't anything interesting in this challenge, and I admit I didn't ace this one, I got to 242/300 on my own before I called it quits and studied up on the others and thus learning I was trying to find something special to solve it. Nope. Answer is brute force. Did not like, down voted. This one was both significantly tougher, and more obtuse than all others.</td>
     </tr>
 </table>
