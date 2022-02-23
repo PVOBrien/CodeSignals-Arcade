@@ -53,4 +53,37 @@ public class ThroughTheFogTest {
 
     }
 
+    @Nested
+    @DisplayName("Deposit Profit")
+    public class DepositProfitTest {
+
+        DepositProfit dP = new DepositProfit();
+
+        @Test
+        public void dPTest1() {
+            assertEquals(3, dP.solution(100, 20, 170));
+        }
+
+        @Test
+        public void dPTest2() {
+            assertEquals(1, dP.solution(100, 1, 101));
+        }
+
+        @Test
+        public void dPTest3() {
+            assertEquals(6, dP.solution(1, 100, 64));
+        }
+
+        @Test
+        public void dPTest4() {
+            assertEquals(6, dP.solution(20, 20, 50));
+        }
+
+        @Test
+        public void dPTest5() {
+            assertEquals(4, dP.solution(50, 25, 100));
+        }
+
+    }
+
 }
