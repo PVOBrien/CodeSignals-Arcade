@@ -169,7 +169,30 @@
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ChessBoardCellColor.java">29</a></td>
-        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/t97bpjfrMDZH8GJhi">ChessBoardCellColor</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-6/t97bpjfrMDZH8GJhi">Chess Board Cell Color</a></td>
         <td>I was proud of this one, figuring out that being only two colors to check against = modulo can do it, just add the row value as well, and then you check if the other cell is correctly shifted to be the same color.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;"><b>Through The Fog</b></td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/CircleOfNumbers.java">30</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-7/vExYvcGnFsEYSt8nQ">Circle of Numbers</a></td>
+        <td>A fun bit of module work, with an off-by-one gotcha (two, in fact!) because 0 is a value on the circle.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DepositProfit.java">31</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-7/8PxjMSncp9ApA4DAb">Deposit Profit</a></td>
+        <td>This is a math problem, plan and simple. I'm not keen on math; I do the simple math for the interest, add it to the principal, increment counter, rinse and repeat. But if you know how to use log(), then it's just applying that and it will provide the answer straight away.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/AbsoluteValuesSumMinimization.java">32</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-7/ZFnQkq9RmMiyE6qtq">Absolute Values Sum Minimization</a></td>
+        <td>This one has some mathematical principle in play that I see at work but can't put my finger on it. It's key that it comes <i>presorted</i>, and with that done, it's the int that is in the middle that will always be the closest when calculating its difference against everything else.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/StringsRearrangement.java">33</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-7/PTWhv2oWqd6p4AHB9">Strings Rearrangement</a></td>
+        <td>This was about finding a <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">"Hamiltonian Path"</a>. And it seems that a Hamiltonian Path can only be brute forced. So... besides recursion, there wasn't anything interesting in this challenge, and I admit I didn't ace this one, I got to 242/300 on my own before I called it quits and studied up on the others and thus learning I was trying to find something special to solve it. Nope. Answer is brute force. Did not like, down voted. This one was both significantly tougher, and more obtuse than all others.</td>
     </tr>
 </table>
