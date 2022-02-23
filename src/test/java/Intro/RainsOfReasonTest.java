@@ -1,6 +1,5 @@
 package Intro;
 
-import org.junit.jupiter.api.BeforeAll;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Nested;
 import org.junit.jupiter.api.Test;
@@ -229,6 +228,84 @@ public class RainsOfReasonTest {
         @Test
         public void aSTest5() {
             assertEquals("dpeftjhobm", aS.solution("codesignal"));
+        }
+
+    }
+
+    @Nested
+    @DisplayName("Chess Board Cell Color")
+    public class ChessBoardCellColorTest {
+
+        ChessBoardCellColor cBCC = new ChessBoardCellColor();
+
+        @Test
+        public void cBCCTest1() {
+            String cell1 = "A1";
+            String cell2 = "C3";
+            assertTrue(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest2() {
+            String cell1 = "A1";
+            String cell2 = "H3";
+            assertFalse(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest3() {
+            String cell1 = "A1";
+            String cell2 = "A2";
+            assertFalse(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest4() {
+            String cell1 = "A1";
+            String cell2 = "B2";
+            assertTrue(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest5() {
+            String cell1 = "B3";
+            String cell2 = "H8";
+            assertFalse(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest6() {
+            String cell1 = "C3";
+            String cell2 = "B5";
+            assertFalse(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest7() {
+            String cell1 = "G5";
+            String cell2 = "E7";
+            assertTrue(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest8() {
+            String cell1 = "C8";
+            String cell2 = "H8";
+            assertFalse(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest9() {
+            String cell1 = "D2";
+            String cell2 = "D2";
+            assertTrue(cBCC.solution(cell1, cell2));
+        }
+
+        @Test
+        public void cBCCTest10() {
+            String cell1 = "A2";
+            String cell2 = "A5";
+            assertFalse(cBCC.solution(cell1, cell2));
         }
 
     }
