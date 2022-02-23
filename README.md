@@ -199,13 +199,13 @@
         <td colspan="3" style="text-align:center; font-size:2em;"><b>Diving Deeper</b></td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ExtractEachKth.java">33</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ExtractEachKth.java">34</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R">Extract Each Kth</a></td>
-        <td>This was about finding a <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">"Hamiltonian Path"</a>. And it seems that a Hamiltonian Path can only be brute forced. So... besides recursion, there wasn't anything interesting in this challenge, and I admit I didn't ace this one, I got to 242/300 on my own before I called it quits and studied up on the others and thus learning I was trying to find something special to solve it. Nope. Answer is brute force. Did not like, down voted. This one was both significantly tougher, and more obtuse than all others.</td>
+        <td>The matter of going through the array and in my case I took the ones that weren't being passed over into a new list, then returned the list as a new array. The more elegant solution was a Java lambda that streamed through the array but used filter to leave out the "extracted" then send it back.</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ExtractEachKth.java">33</a></td>
-        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/3AgqcKrxbwFhd3Z3R">Extract Each Kth</a></td>
-        <td>This was about finding a <a href="https://en.wikipedia.org/wiki/Hamiltonian_path_problem">"Hamiltonian Path"</a>. And it seems that a Hamiltonian Path can only be brute forced. So... besides recursion, there wasn't anything interesting in this challenge, and I admit I didn't ace this one, I got to 242/300 on my own before I called it quits and studied up on the others and thus learning I was trying to find something special to solve it. Nope. Answer is brute force. Did not like, down voted. This one was both significantly tougher, and more obtuse than all others.</td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/FirstDigit.java">35</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/rRGGbTtwZe2mA8Wov">First Digit</a></td>
+        <td>Hello regex! Find the first digit (aka leftmost) and return it. I did feel it of notice that this was the first instance I felt chaining the whole regex Matcher-Pattern.compile(regex).matcher(input) together in the code refactor.</td>
     </tr>
 </table>

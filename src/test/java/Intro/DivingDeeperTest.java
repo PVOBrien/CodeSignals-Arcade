@@ -45,6 +45,43 @@ public class DivingDeeperTest {
             int[] inputArr = {2, 4, 6, 8, 10};
             assertArrayEquals(new int[]{2, 6, 10}, eEK.solution(inputArr, 2));
         }
+    }
+
+    @Nested
+    @DisplayName("First Digit")
+    public class FirstDigitTest {
+
+        FirstDigit fD = new FirstDigit();
+
+        @Test
+        public void fdTest1() {
+            assertEquals('1', fD.solution("var_1__Int"));
+        }
+
+        @Test
+        public void fdTest2() {
+            assertEquals('2', fD.solution("q2q-q\""));
+        }
+
+        @Test
+        public void fdTest3() {
+            assertEquals('0', fD.solution("0ss"));
+        }
+
+        @Test
+        public void fdTest4() {
+            assertEquals('2', fD.solution("_Aas_23"));
+        }
+
+        @Test
+        public void fdTest5() {
+            assertEquals('9', fD.solution("a a_933"));
+        }
+
+        @Test
+        public void fdTest6() {
+            assertEquals('0', fD.solution("ok0"));
+        }
 
     }
 
