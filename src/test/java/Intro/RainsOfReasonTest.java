@@ -140,4 +140,62 @@ public class RainsOfReasonTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Variable Name")
+    public class VariableNameTest {
+
+        VariableName vN = new VariableName();
+
+        @Test
+        public void vNTest1() {
+            assertTrue(vN.solution("var_1__Int"));
+        }
+
+        @Test
+        public void vNTest2() {
+            assertFalse(vN.solution("qq-q"));
+        }
+
+        @Test
+        public void vNTest3() {
+            assertFalse(vN.solution("2w2"));
+        }
+
+        @Test
+        public void vNTest4() {
+            assertFalse(vN.solution(" variable"));
+        }
+
+        @Test
+        public void vNTest5() {
+            assertFalse(vN.solution("va[riable0"));
+        }
+
+        @Test
+        public void vNTest6() {
+            assertTrue(vN.solution("variable0"));
+        }
+
+        @Test
+        public void vNTest7() {
+            assertTrue(vN.solution("a"));
+        }
+
+        @Test
+        public void vNTest8() {
+            assertTrue(vN.solution("_Aas_23"));
+        }
+
+        @Test
+        public void vNTest9() {
+            assertFalse(vN.solution("a a_2"));
+        }
+
+        @Test
+        public void vNTest10() {
+            assertFalse(vN.solution("0ss"));
+        }
+
+    }
 }
