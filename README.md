@@ -43,17 +43,17 @@
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/MakeArrayConsecutiveTwo.java">6</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/bq2XnSr5kbHqpHGJC">Make Array Consecutive 2</a></td>
-        <td><a href="https://vimeo.com/680161485/e181cb3ae4">Video Walkthrough</a> of my code versus the better submitted answer on Code Signal.</td>
+        <td><a href="https://vimeo.com/680161485/e181cb3ae4">Video Discussion</a> of my code versus the better submitted answer on Code Signal.</td>
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ShapeArea.java">7</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/2mxbGwLzvkTCKAJMG">Almost Increasing Sequence</a></td>
-        <td><a href="https://vimeo.com/680173184/1b7ca06cde">Video Walkthrough</a> of my code versus the better submitted answer on Code Signal.</td>
+        <td><a href="https://vimeo.com/680173184/1b7ca06cde">Video Discussion</a> of my code versus the better submitted answer on Code Signal.</td>
     </tr>
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ShapeArea.java">8</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-2/xskq4ZxLyqQMCLshr">Matrix Elements Sum</a></td>
-        <td><a href="https://vimeo.com/680179823/7565d2bbe8">Video Walkthrough</a> of my code versus the better submitted answer on Code Signal.</td>
+        <td><a href="https://vimeo.com/680179823/7565d2bbe8">Video Discussion</a> of my code versus the better submitted answer on Code Signal.</td>
     </tr>
     <tr>
         <td colspan="3" style="text-align:center; font-size:2em;"><b>Smooth Sailing</b></td>
