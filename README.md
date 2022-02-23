@@ -221,4 +221,9 @@
     <tr>
         <td colspan="3" style="text-align:center; font-size:2em;"><b>Dark Wilderness</b></td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/GrowingPlant.java">38</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/xHvruDnQCx7mYom3T">Growing Plant</a></td>
+        <td>This was a good and fun one. A math problem to be sure - I did the slower step-by-step iterative approach. I need to learn to balance "getting to code" vs "<i>is</i> there a straightforward formula to do it via calculations"? A good one.</td>
+    </tr>
 </table>
