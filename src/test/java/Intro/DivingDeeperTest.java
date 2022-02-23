@@ -85,4 +85,37 @@ public class DivingDeeperTest {
 
     }
 
+    @Nested
+    @DisplayName("Different Symbols Naive")
+    public class DifferentSymbolsNaiveTest {
+
+        DifferentSymbolsNaive dSN = new DifferentSymbolsNaive();
+
+        @Test
+        public void dSNTest1() {
+            assertEquals(3, dSN.solution("cabca"));
+        }
+
+        @Test
+        public void dSNTest2() {
+            assertEquals(2, dSN.solution("aba"));
+        }
+
+        @Test
+        public void dSNTest3() {
+            assertEquals(1, dSN.solution("ccccccccccc"));
+        }
+
+        @Test
+        public void dSNTest4() {
+            assertEquals(3, dSN.solution("bcaba"));
+        }
+
+        @Test
+        public void dSNTest5() {
+            assertEquals(10, dSN.solution("codesignal"));
+        }
+
+    }
+
 }

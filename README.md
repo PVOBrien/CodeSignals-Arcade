@@ -208,4 +208,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/rRGGbTtwZe2mA8Wov">First Digit</a></td>
         <td>Hello regex! Find the first digit (aka leftmost) and return it. I did feel it of notice that this was the first instance I felt chaining the whole regex Matcher-Pattern.compile(regex).matcher(input) together in the code refactor.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DifferentSymbolsNaive.java">36</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/8N7p3MqzGQg5vFJfZ">Different Symbols Naive</a></td>
+        <td>Find all the unique characters in a string. I tossed them into a hashset and returned the size. The better way is to stream the chars, put it through distinct and then return the count (being sure to cast it as an int). TIL you can stream a string by simply starting with .chars(). Nice!</td>
+    </tr>
 </table>
