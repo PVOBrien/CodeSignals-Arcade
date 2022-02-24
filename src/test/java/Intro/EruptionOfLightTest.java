@@ -67,4 +67,62 @@ public class EruptionOfLightTest {
 
     }
 
+    @Nested
+    @DisplayName("Find Email Domain")
+    public class FindEmailDomainTest {
+
+        FindEmailDomain fED = new FindEmailDomain();
+
+        @Test
+        public void fEDTest1() {
+            assertEquals("example.com", fED.solution("prettyandsimple@example.com"));
+        }
+
+        @Test
+        public void fEDTest2() {
+            assertEquals("codesignal.com", fED.solution("fully-qualified-domain@codesignal.com"));
+        }
+
+        @Test
+        public void fEDTest3() {
+            assertEquals("space.com", fED.solution("\\\" \\\"@space.com"));
+        }
+
+        @Test
+        public void fEDTest4() {
+            assertEquals("yandex.ru", fED.solution("someaddress@yandex.ru"));
+        }
+
+        @Test
+        public void fEDTest5() {
+            assertEquals("xample.org", fED.solution("\\\" \\\"@xample.org"));
+        }
+
+        @Test
+        public void fEDTest6() {
+            assertEquals("yahoo.com", fED.solution("\\\"much.more unusual\\\"@yahoo.com"));
+        }
+
+        @Test
+        public void fEDTest7() {
+            assertEquals("usual.com", fED.solution("\\\"very.unusual.@.unusual.com\\\"@usual.com"));
+        }
+
+        @Test
+        public void fEDTest8() {
+            assertEquals("mailserver2.ru", fED.solution("admin@mailserver2.ru"));
+        }
+
+        @Test
+        public void fEDTest9() {
+            assertEquals("strange-example.com", fED.solution("example-indeed@strange-example.com"));
+        }
+
+        @Test
+        public void fEDTest10() {
+            assertEquals("gmail.com", fED.solution("very.common@gmail.com"));
+        }
+
+    }
+
 }

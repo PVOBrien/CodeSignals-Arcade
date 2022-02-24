@@ -250,6 +250,11 @@
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsBeautifulString.java">44</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/PHSQhLEw3K2CmhhXE">Is Beautiful String</a></td>
-        <td>Other coders hated on this one. I'm not so sure why. Tally the char count, if x+1 is greater than x return false</td>
+        <td>Other coders hated on this one. I'm not so sure why. Tally the char count, if x+1 is greater than x return false. I used a hashmap when I could've used an array so my code is verbose and probably uses significantly more space, but runs and tests fine.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/FindEmailDomain.java">45</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/TXFLopNcCNbJLQivP">Find Email Domain</a></td>
+        <td>Find the @ symbol at the end, return what's ahead of it. Heck, Java has a "last index of" method on String that finds the last index position of that character, and then you can just substring to the end. I used a decrimenting for loop collecting each letter into a StringBuilder until breaking at the "@" symbol then reversing the collected letters. Works.</td>
     </tr>
 </table>
