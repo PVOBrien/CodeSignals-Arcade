@@ -246,4 +246,10 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/6M57rMTFB9MeDeSWo">Bishop and Pawn</a></td>
         <td>Another fun one, after realizing/practicing that chars are ints, and since they just tick up and away anyhow you look at it, so long as everything adds up, it's in the Bishop's path.</td>
     </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Eruption of Light</td>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsBeautifulString.java">44</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/PHSQhLEw3K2CmhhXE">Is Beautiful String</a></td>
+        <td>Other coders hated on this one. I'm not so sure why. Tally the char count, if x+1 is greater than x return false</td>
+    </tr>
 </table>
