@@ -257,4 +257,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/TXFLopNcCNbJLQivP">Find Email Domain</a></td>
         <td>Find the @ symbol at the end, return what's ahead of it. Heck, Java has a "last index of" method on String that finds the last index position of that character, and then you can just substring to the end. I used a decrimenting for loop collecting each letter into a StringBuilder until breaking at the "@" symbol then reversing the collected letters. Works.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/BuildPalindrome.java">46</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/ppZ9zSufpjyzAsSEx">Build Palindrome</a></td>
+        <td>My code is more verbose, but in line with the thinking of all the other answers: check if the string is a palindrome. If not, insert the next char into that "starting" end index until it is a palindrome.</td>
+    </tr>
 </table>

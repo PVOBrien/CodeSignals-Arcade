@@ -125,4 +125,67 @@ public class EruptionOfLightTest {
 
     }
 
+    @Nested
+    @DisplayName("Build Palindrome")
+    public class BuildPalindromeTest {
+
+        BuildPalindrome bP = new BuildPalindrome();
+
+        @Test
+        public void bPTest1() {
+            assertEquals("abcdcba", bP.solution("abcdc"));
+        }
+
+        @Test
+        public void bPTest2() {
+            assertEquals("abababa", bP.solution("ababab"));
+        }
+
+        @Test
+        public void bPTest3() {
+            assertEquals("abba", bP.solution("abba"));
+        }
+
+        @Test
+        public void bPTest4() {
+            assertEquals("abaaba", bP.solution("abaa"));
+        }
+
+        @Test
+        public void bPTest5() {
+            assertEquals("aaaabaaaa", bP.solution("aaaaba"));
+        }
+
+        @Test
+        public void bPTest6() {
+            assertEquals("abcba", bP.solution("abc"));
+        }
+
+        @Test
+        public void bPTest7() {
+            assertEquals("kebabek", bP.solution("kebab"));
+        }
+
+        @Test
+        public void bPTest8() {
+            assertEquals("abccba", bP.solution("abccba"));
+        }
+
+        @Test
+        public void bPTest9() {
+            assertEquals("abcabcbacba", bP.solution("abcabc"));
+        }
+
+        @Test
+        public void bPTest10() {
+            assertEquals("cbdbedffcgcffdebdbc", bP.solution("cbdbedffcg"));
+        }
+
+        @Test
+        public void bPTest11() {
+            assertEquals("euotmnmtoue", bP.solution("euotmn"));
+        }
+
+    }
+
 }
