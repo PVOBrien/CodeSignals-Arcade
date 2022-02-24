@@ -6,7 +6,6 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-@Nested
 @DisplayName("Dark Wilderness")
 public class DarkWildernessTest {
 
@@ -87,6 +86,44 @@ public class DarkWildernessTest {
         @Test
         public void kSLTest8() {
             assertEquals(3, kSL.solution(3,5,3,8,10));
+        }
+
+    }
+
+    @Nested
+    @DisplayName("Longest Digits Prefix")
+    public class LongestDigitsPrefixTest {
+
+        LongestDigitsPrefix lDP = new LongestDigitsPrefix();
+
+        @Test
+        public void lDPTest1() {
+            assertEquals("123", lDP.solution("123aa1"));
+        }
+
+        @Test
+        public void lDPTest2() {
+            assertEquals("0123456789", lDP.solution("0123456789"));
+        }
+
+        @Test
+        public void lDPTest3() {
+            assertEquals("", lDP.solution("  3) always check for whitespaces"));
+        }
+
+        @Test
+        public void lDPTest4() {
+            assertEquals("12", lDP.solution("12abc34"));
+        }
+
+        @Test
+        public void lDPTest5() {
+            assertEquals("", lDP.solution("the output is 42"));
+        }
+
+        @Test
+        public void lDPTest6() {
+            assertEquals("", lDP.solution("aaaaaaa"));
         }
 
     }

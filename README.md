@@ -232,8 +232,8 @@
         <td>This is an example of just code tedium, just a whole lot of if statements until you pass the test. Many disliked and downvoted it. I understand. It's more the takeaway to write good descriptions, and try to parse what is happening / will happen when you execute your code.</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ArrayMaxConsecutiveSum.java">37</a></td>
-        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5">Array Max Consecutive Sum</a></td>
-        <td>Summing a range in an array.</td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/LongestDigitsPrefix.java">41</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/AACpNbZANCkhHWNs3">Longest Digits Prefix</a></td>
+        <td>Hello regex! Hello somewhat obscured description/problem domain. It asks for the longest digit <i>prefix</i>. Spoiler: there might not be a "prefix" by the definition that a prefix is the very very first thing to lead the string. Including white space. So yeah. I'm betting people put in the regex and then found that it needed to be at the front of the sentence. So they added ^, huffed a little, down voted (rightly) and moved on. I huffed, but no downvote.</td>
     </tr>
 </table>
