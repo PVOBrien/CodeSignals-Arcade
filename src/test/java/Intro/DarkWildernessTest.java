@@ -127,4 +127,62 @@ public class DarkWildernessTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Digit Degree")
+    public class DigitDegreeTest {
+
+        DigitDegree dD = new DigitDegree();
+
+        @Test
+        public void dDTest1() {
+            assertEquals(0, dD.solution(5));
+        }
+
+        @Test
+        public void dDTest2() {
+            assertEquals(1, dD.solution(100));
+        }
+
+        @Test
+        public void dDTest3() {
+            assertEquals(2, dD.solution(91));
+        }
+
+        @Test
+        public void dDTest4() {
+            assertEquals(2, dD.solution(99));
+        }
+
+        @Test
+        public void dDTest5() {
+            assertEquals(1, dD.solution(1000000000));
+        }
+
+        @Test
+        public void dDTest6() {
+            assertEquals(0, dD.solution(9));
+        }
+
+        @Test
+        public void dDTest7() {
+            assertEquals(2, dD.solution(73));
+        }
+
+        @Test
+        public void dDTest8() {
+            assertEquals(2, dD.solution(877));
+        }
+
+        @Test
+        public void dDTest9() {
+            assertEquals(3, dD.solution(777773));
+        }
+
+        @Test
+        public void dDTest10() {
+            assertEquals(1, dD.solution(304));
+        }
+
+    }
 }

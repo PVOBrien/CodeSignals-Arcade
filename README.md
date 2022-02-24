@@ -236,4 +236,14 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/AACpNbZANCkhHWNs3">Longest Digits Prefix</a></td>
         <td>Hello regex! Hello somewhat obscured description/problem domain. It asks for the longest digit <i>prefix</i>. Spoiler: there might not be a "prefix" by the definition that a prefix is the very very first thing to lead the string. Including white space. So yeah. I'm betting people put in the regex and then found that it needed to be at the front of the sentence. So they added ^, huffed a little, down voted (rightly) and moved on. I huffed, but no downvote.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DigitDegree.java">42</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/hoLtYWbjdrD2PF6yo">Digit Degree</a></td>
+        <td>I had fun creating a recursive solution, just slowing shaving off the numbers to distill it what it should be.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DigitDegree.java">42</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/hoLtYWbjdrD2PF6yo">Digit Degree</a></td>
+        <td>I had fun creating a recursive solution, just slowing shaving off the numbers to distill it what it should be.</td>
+    </tr>
 </table>
