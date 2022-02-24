@@ -226,4 +226,62 @@ public class EruptionOfLightTest {
 
     }
 
+    @Nested
+    @DisplayName("Is MAC48 Address?")
+    public class IsMAC48AddressTest {
+
+        IsMAC48Address iMA = new IsMAC48Address();
+
+        @Test
+        public void iMATest1() {
+            assertTrue(iMA.solution("00-1B-63-84-45-E6"));
+        }
+
+        @Test
+        public void iMATest2() {
+            assertFalse(iMA.solution("Z1-1B-63-84-45-E6"));
+        }
+
+        @Test
+        public void iMATest3() {
+            assertFalse(iMA.solution("not a MAC-48 address"));
+        }
+
+        @Test
+        public void iMATest4() {
+            assertTrue(iMA.solution("FF-FF-FF-FF-FF-FF"));
+        }
+
+        @Test
+        public void iMATest5() {
+            assertTrue(iMA.solution("00-00-00-00-00-00"));
+        }
+
+        @Test
+        public void iMATest6() {
+            assertFalse(iMA.solution("G0-00-00-00-00-00"));
+        }
+
+        @Test
+        public void iMATest7() {
+            assertFalse(iMA.solution("02-03-04-05-06-07-"));
+        }
+
+        @Test
+        public void iMATest8() {
+            assertTrue(iMA.solution("12-34-56-78-9A-BC"));
+        }
+
+        @Test
+        public void iMATest9() {
+            assertTrue(iMA.solution("FF-FF-AB-CD-EA-BC"));
+        }
+
+        @Test
+        public void iMATest10() {
+            assertFalse(iMA.solution("12-34-56-78-9A-BG"));
+        }
+
+    }
+
 }
