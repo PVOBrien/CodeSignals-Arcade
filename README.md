@@ -242,8 +242,8 @@
         <td>I had fun creating a recursive solution, just slowing shaving off the numbers to distill it what it should be.</td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DigitDegree.java">42</a></td>
-        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/hoLtYWbjdrD2PF6yo">Digit Degree</a></td>
-        <td>I had fun creating a recursive solution, just slowing shaving off the numbers to distill it what it should be.</td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/BishopandPawn.java">43</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/6M57rMTFB9MeDeSWo">Bishop and Pawn</a></td>
+        <td>Another fun one, after realizing/practicing that chars are ints, and since they just tick up and away anyhow you look at it, so long as everything adds up, it's in the Bishop's path.</td>
     </tr>
 </table>

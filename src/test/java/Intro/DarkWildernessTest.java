@@ -185,4 +185,62 @@ public class DarkWildernessTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Bishop and Pawn")
+    public class BishopandPawnTest {
+
+        BishopandPawn bAP = new BishopandPawn();
+
+        @Test
+        public void bAPTest1() {
+            assertTrue(bAP.solution("a1","c3"));
+        }
+
+        @Test
+        public void bAPTest2() {
+            assertFalse(bAP.solution("h1","h3"));
+        }
+
+        @Test
+        public void bAPTest3() {
+            assertTrue(bAP.solution("a5","c3"));
+        }
+
+        @Test
+        public void bAPTest4() {
+            assertFalse(bAP.solution("g1","f3"));
+        }
+
+        @Test
+        public void bAPTest5() {
+            assertTrue(bAP.solution("e7","d6"));
+        }
+
+        @Test
+        public void bAPTest6() {
+            assertTrue(bAP.solution("e7","a3"));
+        }
+
+        @Test
+        public void bAPTest7() {
+            assertTrue(bAP.solution("e3","a7"));
+        }
+
+        @Test
+        public void bAPTest8() {
+            assertTrue(bAP.solution("a1","h8"));
+        }
+
+        @Test
+        public void bAPTest9() {
+            assertFalse(bAP.solution("a1","h7"));
+        }
+
+        @Test
+        public void bAPTest10() {
+            assertTrue(bAP.solution("h1","a8"));
+        }
+
+    }
 }
