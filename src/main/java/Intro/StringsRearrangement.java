@@ -28,10 +28,11 @@ public class StringsRearrangement {
             boolean oneFlag = false;
 
             for (int l = 0; l < first.length(); l++) {
-                if (first.charAt(l) != second.charAt(l) && oneFlag) {
+                boolean b = first.charAt(l) != second.charAt(l);
+                if (b && oneFlag) {
                     return false;
                 }
-                if (first.charAt(l) != second.charAt(l)) {
+                if (b) {
                     oneFlag = true;
                 }
             }
