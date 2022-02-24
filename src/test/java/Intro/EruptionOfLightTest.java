@@ -188,4 +188,42 @@ public class EruptionOfLightTest {
 
     }
 
+    @Nested
+    @DisplayName("Elections Winners")
+    public class ElectionsWinnersTest {
+
+        ElectionsWinners eW = new ElectionsWinners();
+
+        @Test
+        public void eWTest1() {
+            assertEquals(2, eW.solution(new int[]{2, 3, 5, 2}, 3));
+        }
+
+        @Test
+        public void eWTest2() {
+            assertEquals(0, eW.solution(new int[]{1, 3, 3, 1, 1}, 0));
+        }
+
+        @Test
+        public void eWTest3() {
+            assertEquals(1, eW.solution(new int[]{5, 1, 3, 4, 1}, 0));
+        }
+
+        @Test
+        public void eWTest4() {
+            assertEquals(4, eW.solution(new int[]{1, 1, 1, 1}, 1));
+        }
+
+        @Test
+        public void eWTest5() {
+            assertEquals(0, eW.solution(new int[]{1, 1, 1, 1}, 0));
+        }
+
+        @Test
+        public void eWTest6() {
+            assertEquals(2, eW.solution(new int[]{3, 1, 1, 3, 1}, 2));
+        }
+
+    }
+
 }

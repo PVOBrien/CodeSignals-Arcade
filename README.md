@@ -262,4 +262,14 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/ppZ9zSufpjyzAsSEx">Build Palindrome</a></td>
         <td>My code is more verbose, but in line with the thinking of all the other answers: check if the string is a palindrome. If not, insert the next char into that "starting" end index until it is a palindrome.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ElectionsWinners.java">47</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg">Elections Winners</a></td>
+        <td>Seeing how many numbers can be higher than another number if given an additional sum. Nothing to write home about.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ElectionsWinners.java">47</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-10/8RiRRM3yvbuAd3MNg">Elections Winners</a></td>
+        <td>Seeing how many numbers can be higher than another number if given an additional sum. Nothing to write home about.</td>
+    </tr>
 </table>
