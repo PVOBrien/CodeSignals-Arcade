@@ -42,4 +42,52 @@ public class DarkWildernessTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Knapsack Light")
+    public class KnapsackLightTest {
+
+        KnapsackLight kSL = new KnapsackLight();
+
+        @Test
+        public void kSLTest1() {
+            assertEquals(10, kSL.solution(10,5,6,4,8));
+        }
+
+        @Test
+        public void kSLTest2() {
+            assertEquals(16, kSL.solution(10,5,6,4,9));
+        }
+
+        @Test
+        public void kSLTest3() {
+            assertEquals(7, kSL.solution(5,3,7,4,6));
+        }
+
+        @Test
+        public void kSLTest4() {
+            assertEquals(0, kSL.solution(10,2,11,3,1));
+        }
+
+        @Test
+        public void kSLTest5() {
+            assertEquals(15, kSL.solution(15,2,20,3,2));
+        }
+
+        @Test
+        public void kSLTest6() {
+            assertEquals(3, kSL.solution(2,5,3,4,5));
+        }
+
+        @Test
+        public void kSLTest7() {
+            assertEquals(4, kSL.solution(4,3,3,4,4));
+        }
+
+        @Test
+        public void kSLTest8() {
+            assertEquals(3, kSL.solution(3,5,3,8,10));
+        }
+
+    }
 }

@@ -222,8 +222,18 @@
         <td colspan="3" style="text-align:center; font-size:2em;"><b>Dark Wilderness</b></td>
     </tr>
     <tr>
-        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/GrowingPlant.java">38</a></td>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/GrowingPlant.java">39</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/xHvruDnQCx7mYom3T">Growing Plant</a></td>
         <td>This was a good and fun one. A math problem to be sure - I did the slower step-by-step iterative approach. I need to learn to balance "getting to code" vs "<i>is</i> there a straightforward formula to do it via calculations"? A good one.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/KnapsackLight.java">40</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-9/r9azLYp2BDZPyzaG2">Knapsack Light</a></td>
+        <td>This is an example of just code tedium, just a whole lot of if statements until you pass the test. Many disliked and downvoted it. I understand. It's more the takeaway to write good descriptions, and try to parse what is happening / will happen when you execute your code.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ArrayMaxConsecutiveSum.java">37</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-8/Rqvw3daffNE7sT7d5">Array Max Consecutive Sum</a></td>
+        <td>Summing a range in an array.</td>
     </tr>
 </table>
