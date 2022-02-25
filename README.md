@@ -303,4 +303,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/s9qvXv4yTaWg8g4ma">Longest Word</a></td>
         <td>Hello regex! It's regex.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/ValidTime.java">53</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/ywMyCTspqGXPWRZx5">Valid Time</a></td>
+        <td>Telling time. Oh the joys. It's relatively straightforward but there are the edge cases: 24:00 is not a thing which presents just a few quirks.</td>
+    </tr>
 </table>
