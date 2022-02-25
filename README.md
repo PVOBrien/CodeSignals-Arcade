@@ -318,4 +318,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/fQpfgxiY6aGiGHLtv">Different Squares</a></td>
         <td>HashSet work, finding unique 2x2 squares in matrix. No edge cases in the tests at least; a nested for loop precludes any 1x1 squares sneaking in because the matrix has to have at least two indexes for it to iterate over. I did allow intelliJ to refactor my StringBuilder to a simple String and then concatenate with "+" since there's no additional manipulation of the resulting string, its final, and String is lighter than StringBuilder (I'm assuming, but I feel pretty good about the assumption). Will need to keep that in mind going forward.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DigitsProduct.java">56</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/NJJhENpgheFRQbPRA">Digits Product</a></td>
+        <td>Another challenge that was hated on. It's a mathematical brute force loop with a touch of string concatenation. It's boring, and what makes it worse, the description is <i>only just</i> a description. So yeah, just an annoying challenge, poorly presented.</td>
+    </tr>
 </table>

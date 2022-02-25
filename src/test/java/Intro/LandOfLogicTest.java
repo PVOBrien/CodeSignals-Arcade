@@ -210,4 +210,57 @@ public class LandOfLogicTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Digits Product")
+    public class DigitsProductTest {
+
+        DigitsProduct dP = new DigitsProduct();
+
+        @Test
+        public void dPTest1() {
+            assertEquals(26, dP.solution(12));
+        }
+
+        @Test
+        public void dPTest2() {
+            assertEquals(-1, dP.solution(19));
+        }
+
+        @Test
+        public void dPTest3() {
+            assertEquals(2559, dP.solution(450));
+        }
+
+        @Test
+        public void dPTest4() {
+            assertEquals(10, dP.solution(0));
+        }
+
+        @Test
+        public void dPTest5() {
+            assertEquals(1, dP.solution(1));
+        }
+
+        @Test
+        public void dPTest6() {
+            assertEquals(26, dP.solution(12));
+        }
+
+        @Test
+        public void dPTest7() {
+            assertEquals(399, dP.solution(243));
+        }
+
+        @Test
+        public void dPTest8() {
+            assertEquals(889, dP.solution(576));
+        }
+
+        @Test
+        public void dPTest9() {
+            assertEquals(589, dP.solution(360));
+        }
+
+    }
 }
