@@ -295,4 +295,12 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX">Delete Digit</a></td>
         <td>A fun one. Pluck out a digit, evaluate if that number is the biggest number, move down the line. I'm looking at the <a href="https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX/solutions?solutionId=x5KwM2nEeqeEhaNKj">top Java solution</a> and it is pure math.</td>
     </tr>
+    <tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Land of Logic</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/LongestWord.java">52</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/s9qvXv4yTaWg8g4ma">Longest Word</a></td>
+        <td>Hello regex! It's regex.</td>
+    </tr>
 </table>
