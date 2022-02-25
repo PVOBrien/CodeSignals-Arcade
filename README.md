@@ -290,4 +290,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-11/pwRLrkrNpnsbgMndb">Chess Knight</a></td>
         <td>Math or subtraction of the edges. I intuited the math, but the edges route is appealing in its simplicity.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DeleteDigit.java">51</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX">Delete Digit</a></td>
+        <td>A fun one. Pluck out a digit, evaluate if that number is the biggest number, move down the line. I'm looking at the <a href="https://app.codesignal.com/arcade/intro/level-11/vpfeqDwGZSzYNm2uX/solutions?solutionId=x5KwM2nEeqeEhaNKj">top Java solution</a> and it is pure math.</td>
+    </tr>
 </table>

@@ -187,4 +187,62 @@ public class RainbowOfClarityTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Delete Digit")
+    public class DeleteDigitTest {
+
+        DeleteDigit dD = new DeleteDigit();
+
+        @Test
+        public void dDTest1() {
+            assertEquals(52, dD.solution(152));
+        }
+
+        @Test
+        public void dDTest2() {
+            assertEquals(101, dD.solution(1001));
+        }
+
+        @Test
+        public void dDTest3() {
+            assertEquals(1, dD.solution(10));
+        }
+
+        @Test
+        public void dDTest4() {
+            assertEquals(22229, dD.solution(222219));
+        }
+
+        @Test
+        public void dDTest5() {
+            assertEquals(19, dD.solution(109));
+        }
+
+        @Test
+        public void dDTest6() {
+            assertEquals(22250, dD.solution(222250));
+        }
+
+        @Test
+        public void dDTest7() {
+            assertEquals(4445, dD.solution(44435));
+        }
+
+        @Test
+        public void dDTest8() {
+            assertEquals(2, dD.solution(12));
+        }
+
+        @Test
+        public void dDTest9() {
+            assertEquals(28616, dD.solution(218616));
+        }
+
+        @Test
+        public void dDTest10() {
+            assertEquals(86452, dD.solution(861452));
+        }
+
+    }
 }
