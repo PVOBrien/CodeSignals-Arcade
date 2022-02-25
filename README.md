@@ -308,4 +308,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/ywMyCTspqGXPWRZx5">Valid Time</a></td>
         <td>Telling time. Oh the joys. It's relatively straightforward but there are the edge cases: 24:00 is not a thing which presents just a few quirks.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/SumUpNumbers.java">54</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/YqZwMJguZBY7Hz84T">Sum Up Numbers</a></td>
+        <td>More regex fun! Then add the digits as you find them.</td>
+    </tr>
 </table>

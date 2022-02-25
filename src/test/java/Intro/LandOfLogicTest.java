@@ -104,4 +104,52 @@ public class LandOfLogicTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Sum Up Numbers")
+    public class SumUpNumbersTest {
+
+        SumUpNumbers sUN = new SumUpNumbers();
+
+        @Test
+        public void sUNTest1() {
+            assertEquals(14, sUN.solution("2 apples, 12 oranges"));
+        }
+
+        @Test
+        public void sUNTest2() {
+            assertEquals(123450, sUN.solution("123450"));
+        }
+
+        @Test
+        public void sUNTest3() {
+            assertEquals(0, sUN.solution("Your payment method is invalid"));
+        }
+
+        @Test
+        public void sUNTest4() {
+            assertEquals(0, sUN.solution("no digits at all"));
+        }
+
+        @Test
+        public void sUNTest5() {
+            assertEquals(6587, sUN.solution("there are some (12) digits 5566 in this 770 string 239"));
+        }
+
+        @Test
+        public void sUNTest6() {
+            assertEquals(823, sUN.solution("42+781"));
+        }
+
+        @Test
+        public void sUNTest7() {
+            assertEquals(4, sUN.solution("abc abc 4 abc 0 abc"));
+        }
+
+        @Test
+        public void sUNTest8() {
+            assertEquals(98, sUN.solution("abcdefghijklmnopqrstuvwxyz1AbCdEfGhIjKlMnOpqrstuvwxyz23,74 -"));
+        }
+
+    }
 }
