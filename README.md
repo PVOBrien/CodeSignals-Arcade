@@ -313,4 +313,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/YqZwMJguZBY7Hz84T">Sum Up Numbers</a></td>
         <td>More regex fun! Then add the digits as you find them.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/DifferentSquares.java">55</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/fQpfgxiY6aGiGHLtv">Different Squares</a></td>
+        <td>HashSet work, finding unique 2x2 squares in matrix. No edge cases in the tests at least; a nested for loop precludes any 1x1 squares sneaking in because the matrix has to have at least two indexes for it to iterate over. I did allow intelliJ to refactor my StringBuilder to a simple String and then concatenate with "+" since there's no additional manipulation of the resulting string, its final, and String is lighter than StringBuilder (I'm assuming, but I feel pretty good about the assumption). Will need to keep that in mind going forward.</td>
+    </tr>
 </table>

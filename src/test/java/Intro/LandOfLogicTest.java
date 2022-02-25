@@ -152,4 +152,62 @@ public class LandOfLogicTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("DifferentSquares")
+    public class DifferentSquaresTest {
+
+        DifferentSquares dS = new DifferentSquares();
+
+        @Test
+        public void dSTest1() {
+            int[][] testMatrix = {{1,2,1}, {2,2,2}, {2,2,2}, {1,2,3}, {2,2,1}};
+            assertEquals(6, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest2() {
+            int[][] testMatrix = {{9,9,9,9,9}, {9,9,9,9,9}, {9,9,9,9,9}, {9,9,9,9,9}, {9,9,9,9,9}, {9,9,9,9,9}};
+            assertEquals(1, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest3() {
+            int[][] testMatrix = {{3}};
+            assertEquals(0, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest4() {
+            int[][] testMatrix = {{3,4,5,6,7,8,9}};
+            assertEquals(0, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest5() {
+            int[][] testMatrix = {{3}, {4}, {5}, {6}, {7}};
+            assertEquals(0, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest6() {
+            int[][] testMatrix = {{2,5,3,4,3,1,3,2},
+                                 {4,5,4,1,2,4,1,3},
+                                 {1,1,2,1,4,1,1,5},
+                                 {1,3,4,2,3,4,2,4},
+                                 {1,5,5,2,1,3,1,1},
+                                 {1,2,3,3,5,1,2,4},
+                                 {3,1,4,4,4,1,5,5},
+                                 {5,1,3,3,1,5,3,5},
+                                 {5,4,4,3,5,4,4,4}};
+            assertEquals(54, dS.solution(testMatrix));
+        }
+
+        @Test
+        public void dSTest7() {
+            int[][] testMatrix = {{1,1,1,1,1,1,2,2,2,3,3,3,9,9,9,2,3,9}};
+            assertEquals(0, dS.solution(testMatrix));
+        }
+
+    }
 }
