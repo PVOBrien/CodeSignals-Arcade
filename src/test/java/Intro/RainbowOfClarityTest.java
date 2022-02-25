@@ -130,4 +130,61 @@ public class RainbowOfClarityTest {
 
     }
 
+    @Nested
+    @DisplayName("Chess Knight")
+    public class ChessKnightTest {
+
+        ChessKnight cK = new ChessKnight();
+
+        @Test
+        public void cKTest1() {
+            assertEquals(2, cK.solution("a1"));
+        }
+
+        @Test
+        public void cKTest2() {
+            assertEquals(2, cK.solution("a1"));
+        }
+
+        @Test
+        public void cKTest3() {
+            assertEquals(8, cK.solution("d4"));
+        }
+
+        @Test
+        public void cKTest4() {
+            assertEquals(6, cK.solution("g6"));
+        }
+
+        @Test
+        public void cKTest5() {
+            assertEquals(4, cK.solution("a3"));
+        }
+
+        @Test
+        public void cKTest6() {
+            assertEquals(4, cK.solution("b7"));
+        }
+
+        @Test
+        public void cKTest7() {
+            assertEquals(2, cK.solution("h8"));
+        }
+
+        @Test
+        public void cKTest8() {
+            assertEquals(4, cK.solution("h6"));
+        }
+
+        @Test
+        public void cKTest9() {
+            assertEquals(3, cK.solution("g8"));
+        }
+
+        @Test
+        public void cKTest10() {
+            assertEquals(4, cK.solution("a5"));
+        }
+
+    }
 }
