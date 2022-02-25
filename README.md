@@ -278,6 +278,11 @@
     <tr>
         <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/IsDigit.java">48</a></td>
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-11/Zr2XXEpkBPtYWqPJu">Is Digit?</a></td>
-        <td>It's a one liner that reads exactly like the challenge title. Java has an isDigit() method for Characters. huzzah!.</td>
+        <td>It's a one liner that reads exactly like the challenge title. Java has an isDigit() method for Characters. huzzah!</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/LineEncoding.java">49</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-11/o2uq6eTuvk7atGadR">Line Encoding</a></td>
+        <td>Work through a string, if there's more than one "compress" it to the count+char. Least verbose way (at least, highest rated Java method) is regex checking for characters, one or more, then using those results to know the length of the group, the char, and a ternary to add the length as a character as needed. I just iterated through a for loop, which meant having a couple edge cases to code out. But, it runs!</td>
     </tr>
 </table>
