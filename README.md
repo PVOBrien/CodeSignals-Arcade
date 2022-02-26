@@ -1,8 +1,6 @@
 # Code Signal Arcade
 ## Intro
 
-<link rel="stylesheet" href="style.css" />
-
 <table>
     <tr>
         <th>#</th>
