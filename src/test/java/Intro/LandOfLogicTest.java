@@ -427,4 +427,22 @@ public class LandOfLogicTest {
         }
 
     }
+
+    @Nested
+    @DisplayName("Spiral Numbers")
+    public class SpiralNumbersTest {
+
+        SpiralNumbers sN = new SpiralNumbers();
+
+        @Test
+        public void sNTest1() {
+
+            int[][] result = {{1,2,3}, {8,9,4}, {7,6,5}};
+            int[][] test1 = sN.solution(3);
+            assertArrayEquals(result[0], test1[0]);
+            assertArrayEquals(result[1], test1[1]);
+            assertArrayEquals(result[2], test1[2]);
+        }
+
+    }
 }
