@@ -323,4 +323,14 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/NJJhENpgheFRQbPRA">Digits Product</a></td>
         <td>Another challenge that was hated on. It's a mathematical brute force loop with a touch of string concatenation. It's boring, and what makes it worse, the description is <i>only just</i> a description. So yeah, just an annoying challenge, poorly presented.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/FileNaming.java">57</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/sqZ9qDTFHXBNrQeLC">File Naming</a></td>
+        <td>Another challenge that was hated on. It's a mathematical brute force loop with a touch of string concatenation. It's boring, and what makes it worse, the description is <i>only just</i> a description. So yeah, just an annoying challenge, poorly presented.</td>
+    </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/MessageFromBinaryCode.java">58</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/sCpwzJCyBy2tDSxKW">Message From Binary Code</a></td>
+        <td>.</td>
+    </tr>
 </table>
