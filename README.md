@@ -338,4 +338,9 @@
         <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/uRWu6K8E7uLi3Qtvx">SpiralNumbers</a></td>
         <td>This was an interesting one. I dance around the answer for a long while, finally looking outside and realizing that my issue was not allowing the loops to <i>include the iterator value</i>. Usually it's not necessary, but in this case, it makes the difference. <b>Note:</b> I only added one test because testing for nested arrays is laborious, and they do pass.</td>
     </tr>
+    <tr>
+        <td style="text-align:center;"><a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/Sudoku.java">60</a></td>
+        <td style="text-align:center;"><a href="https://app.codesignal.com/arcade/intro/level-12/tQgasP8b62JBeirMS">Sudoku</a></td>
+        <td>This is a great challenge, the sudoku checker. I used hashset, and then check each row, column, and 3x3 segment and if each equal true, then it's a sudoku!</td>
+    </tr>
 </table>
