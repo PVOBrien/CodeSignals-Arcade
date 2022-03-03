@@ -67,4 +67,37 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Largest Number")
+    public class LargestNumberTest {
+
+        LargestNumber lN = new LargestNumber();
+
+        @Test
+        public void lNTest1(){
+            assertEquals(99, lN.solution(2));
+        }
+
+        @Test
+        public void lNTest2(){
+            assertEquals(9, lN.solution(1));
+        }
+
+        @Test
+        public void lNTest3(){
+            assertEquals(9999999, lN.solutionViaString(7));
+        }
+
+        @Test
+        public void lNTest4(){
+            assertEquals(9999, lN.solutionViaString(4));
+        }
+
+        @Test
+        public void lNTest5(){
+            assertEquals(999, lN.solution(3));
+        }
+
+    }
 }
