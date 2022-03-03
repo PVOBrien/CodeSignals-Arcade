@@ -159,4 +159,37 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Seats in Theater")
+    public class SeatsInTheaterTest {
+
+        SeatsInTheater sIT = new SeatsInTheater();
+
+        @Test
+        public void sITTest1() {
+            assertEquals(96, sIT.solution(16,11,5,3));
+        }
+
+        @Test
+        public void sITTest2() {
+            assertEquals(0, sIT.solution(1,1,1,1));
+        }
+
+        @Test
+        public void sITTest3() {
+            assertEquals(18, sIT.solution(13,6,8,3));
+        }
+
+        @Test
+        public void sITTest4() {
+            assertEquals(99, sIT.solution(60,100,60,1));
+        }
+
+        @Test
+        public void sITTest5() {
+            assertEquals(0, sIT.solution(1000,1000,1000,1000));
+        }
+
+    }
 }

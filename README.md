@@ -367,4 +367,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/DdNKFA3XCX6XN7bNz">Candies</a></td>
         <td>Find the quotient, then multiple it by the divisor, there's the answer.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/SeatsInTheater.java">1</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/bszFiQAog96G9CXKg">Seats in Theater</a></td>
+        <td>Most solvable, thanks to a fantastic example in the description, by finding the block of seats behind *your* row.</td>
+    </tr>
 </table>
