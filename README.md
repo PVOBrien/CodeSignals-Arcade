@@ -353,7 +353,13 @@
     </tr>
 <td colspan="3" style="text-align:center; font-size:2em;">The Core</td>
     <tr>
-        <td>1</td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AddTwoDigits.java">1</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/wAGdN6FMPkx7WBq66">Add Two Digits</a></td>
+        <td>A nice soft beginning to "The Core". Need to learn how to use the "::" method reference syntax and where that applies instead of writing out the whole object.method(i).</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LargestNumber.java">1</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/SZB5XypsMokGusDhX">Largest Number</a></td>
+        <td>Heh. A created a solution by stringbuilding 9s to i. The better way: Math.pow(10, i) so that 10 to the ith power then minus one. No doubt quicker than my loop, and reads so much better. Nice trick.</td>
     </tr>
 </table>
