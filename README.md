@@ -342,3 +342,18 @@
         <td>This is a great challenge, the sudoku checker. I used hashset, and then check each row, column, and 3x3 segment and if each equal true, then it's a sudoku!</td>
     </tr>
 </table>
+
+## The Core
+
+<table>
+    <tr>
+        <th>#</th>
+        <th>Code Challenge <br> Name</th>
+        <th>Notes</th>
+    </tr>
+<td colspan="3" style="text-align:center; font-size:2em;">The Core</td>
+    <tr>
+        <td>1</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/wAGdN6FMPkx7WBq66">Add Two Digits</a></td>
+    </tr>
+</table>
