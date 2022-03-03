@@ -100,4 +100,63 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Candies")
+    public class CandiesTest {
+
+        Candies candies = new Candies();
+
+        @Test
+        public void candiesTest1() {
+            assertEquals(9, candies.solution(3,10));
+        }
+
+        @Test
+        public void candiesTest2() {
+            assertEquals(2, candies.solution(1,2));
+        }
+
+        @Test
+        public void candiesTest3() {
+            assertEquals(0, candies.solution(10,5));
+        }
+
+        @Test
+        public void candiesTest4() {
+            assertEquals(4, candies.solution(4,4));
+        }
+
+        @Test
+        public void candiesTest5() {
+            assertEquals(12, candies.solution(4,15));
+        }
+
+        @Test
+        public void candiesTest6() {
+            assertEquals(99, candies.solution(9,100));
+        }
+
+        @Test
+        public void candiesTest7() {
+            assertEquals(0, candies.solution(8,2));
+        }
+
+        @Test
+        public void candiesTest8() {
+            assertEquals(3, candies.solution(3,3));
+        }
+
+
+        @Test
+        public void candiesTest9() {
+            assertEquals(7, candies.solution(7,10));
+        }
+
+        @Test
+        public void candiesTest10() {
+            assertEquals(21, candies.solution(3,23));
+        }
+
+    }
 }
