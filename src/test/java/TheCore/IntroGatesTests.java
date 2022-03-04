@@ -307,4 +307,42 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Late Ride")
+    public class LateRideTest {
+
+        LateRide lR = new LateRide();
+
+        @Test
+        public void lRTest1() {
+            assertEquals(4, lR.solution(240));
+        }
+
+        @Test
+        public void lRTest2() {
+            assertEquals(14, lR.solution(808));
+        }
+
+        @Test
+        public void lRTest3() {
+            assertEquals(19, lR.solution(1439));
+        }
+
+        @Test
+        public void lRTest4() {
+            assertEquals(0, lR.solution(0));
+        }
+
+        @Test
+        public void lRTest5() {
+            assertEquals(5, lR.solution(23));
+        }
+
+        @Test
+        public void lRTest6() {
+            assertEquals(8, lR.solution(8));
+        }
+
+    }
 }

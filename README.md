@@ -382,4 +382,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/vExYvcGnFsEYSt8nQ">Circle of Numbers</a></td>
         <td>So, I was pretty proud using the ternary statement to "wrap around" for the answer. But... modulo returns the exact same. Since if the number is less than the modulo amount, then it just returns that. TIL.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LateRide.java">7</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/aiKck9MwwAKyF8D4L">Late Ride</a></td>
+        <td>Was able to correctly diagnose went to use a class method reference, and touched on creating a lambda function (not that it was necessary lol, being a one-liner it would've fit right into the chain no problem) and out it came.</td>
+    </tr>
 </table>
