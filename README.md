@@ -372,4 +372,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/bszFiQAog96G9CXKg">Seats in Theater</a></td>
         <td>Most solvable, thanks to a fantastic example in the description, by finding the block of seats behind *your* row.</td>
     </tr>
+    <tr>
+        <d><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/MaxMultiple.java">1</a></d>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/HEsmEacHr2s9wahjr">Max Multiple</a></td>
+        <td>Same as Candies without the fun math story behind it.</td>
+    </tr>
 </table>

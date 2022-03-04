@@ -192,4 +192,76 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("MaxMultiple")
+    public class MaxMultipleTest {
+
+        MaxMultiple mM = new MaxMultiple();
+
+        @Test
+        public void mMTest1() {
+            assertEquals(9, mM.solution(3,10));
+        }
+
+        @Test
+        public void mMTest2() {
+            assertEquals(6, mM.solution(2,7));
+        }
+
+        @Test
+        public void mMTest3() {
+            assertEquals(50, mM.solution(10,50));
+        }
+
+        @Test
+        public void mMTest4() {
+            assertEquals(98, mM.solution(7,100));
+        }
+
+        @Test
+        public void mMTest5() {
+            assertEquals(14, mM.solution(7,20));
+        }
+
+        @Test
+        public void mMTest6() {
+            assertEquals(10, mM.solution(5,13));
+        }
+
+        @Test
+        public void mMTest7() {
+            assertEquals(88, mM.solution(8,88));
+        }
+
+        @Test
+        public void mMTest8() {
+            assertEquals(100, mM.solution(10,100));
+        }
+
+        @Test
+        public void mMTest9() {
+            assertEquals(4, mM.solution(2,5));
+        }
+
+        @Test
+        public void mMTest10() {
+            assertEquals(3, mM.solution(3,5));
+        }
+
+        @Test
+        public void mMTest11() {
+            assertEquals(9, mM.solution(9,11));
+        }
+
+        @Test
+        public void mMTest12() {
+            assertEquals(8, mM.solution(8,15));
+        }
+
+        @Test
+        public void mMTest13() {
+            assertEquals(54, mM.solution(9,60));
+        }
+    }
 }
