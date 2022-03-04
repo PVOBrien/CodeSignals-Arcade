@@ -345,4 +345,42 @@ public class IntroGatesTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Phone Call")
+    public class PhoneCallTest {
+
+        PhoneCall pC = new PhoneCall();
+
+        @Test
+        public void pCTest1() {
+            assertEquals(14, pC.solution(3,1,2,20));
+        }
+
+        @Test
+        public void pCTest2() {
+            assertEquals(1, pC.solution(2,2,1,2));
+        }
+
+        @Test
+        public void pCTest3() {
+            assertEquals(11, pC.solution(10,1,2,22));
+        }
+
+        @Test
+        public void pCTest4() {
+            assertEquals(14, pC.solution(2,2,1,24));
+        }
+
+        @Test
+        public void pCTest5() {
+            assertEquals(3, pC.solution(1,2,1,6));
+        }
+
+        @Test
+        public void pCTest6() {
+            assertEquals(0, pC.solution(10,10,10,8));
+        }
+
+    }
 }

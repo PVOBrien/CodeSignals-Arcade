@@ -387,4 +387,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/aiKck9MwwAKyF8D4L">Late Ride</a></td>
         <td>Was able to correctly diagnose went to use a class method reference, and touched on creating a lambda function (not that it was necessary lol, being a one-liner it would've fit right into the chain no problem) and out it came.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/PhoneCall.java">8</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/mZAucMXhNMmT7JWta">Phone Call</a></td>
+        <td>A fun one involving counting down/removing a counter of variable amounts. Mine wasn't the smallest - the others had a more mathematical algorithm, but I would opine my is more extensible and easier to read at the cost of being more verbose. So, trade off is all.</td>
+    </tr>
 </table>
