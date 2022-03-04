@@ -377,4 +377,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/HEsmEacHr2s9wahjr">Max Multiple</a></td>
         <td>Same as Candies without the fun math story behind it.</td>
     </tr>
+    <tr>
+        <d><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CircleofNumbers.java">1</a></d>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/vExYvcGnFsEYSt8nQ">Circle of Numbers</a></td>
+        <td>So, I was pretty proud using the ternary statement to "wrap around" for the answer. But... modulo returns the exact same. Since if the number is less than the modulo amount, then it just returns that. TIL.</td>
+    </tr>
 </table>
