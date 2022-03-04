@@ -358,27 +358,27 @@
         <td>A nice soft beginning to "The Core". Need to learn how to use the "::" method reference syntax and where that applies instead of writing out the whole object.method(i).</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LargestNumber.java">1</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LargestNumber.java">2</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/SZB5XypsMokGusDhX">Largest Number</a></td>
         <td>Heh. A created a solution by stringbuilding 9s to i. The better way: Math.pow(10, i) so that 10 to the ith power then minus one. No doubt quicker than my loop, and reads so much better. Nice trick.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/Candies.java">1</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/Candies.java">3</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/DdNKFA3XCX6XN7bNz">Candies</a></td>
         <td>Find the quotient, then multiple it by the divisor, there's the answer.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/SeatsInTheater.java">1</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/SeatsInTheater.java">4</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/bszFiQAog96G9CXKg">Seats in Theater</a></td>
         <td>Most solvable, thanks to a fantastic example in the description, by finding the block of seats behind *your* row.</td>
     </tr>
     <tr>
-        <d><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/MaxMultiple.java">1</a></d>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/MaxMultiple.java">5</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/HEsmEacHr2s9wahjr">Max Multiple</a></td>
         <td>Same as Candies without the fun math story behind it.</td>
     </tr>
     <tr>
-        <d><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CircleofNumbers.java">1</a></d>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CircleofNumbers.java">6</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/vExYvcGnFsEYSt8nQ">Circle of Numbers</a></td>
         <td>So, I was pretty proud using the ternary statement to "wrap around" for the answer. But... modulo returns the exact same. Since if the number is less than the modulo amount, then it just returns that. TIL.</td>
     </tr>
