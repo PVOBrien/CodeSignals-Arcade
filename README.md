@@ -412,7 +412,12 @@
     </tr>
     <tr>
         <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/IsInfiniteProcess.java">12</a></td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc/solutions">Is Infinite Process?</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc">Is Infinite Process?</a></td>
         <td>I got there, but it's hacky, and I couldn't quite find how a and b worked together to make it one less line of code.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ArithmeticExpression.java">13</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/QrCSNQWhnQoaK9KgK">Arithmetic Expression</a></td>
+        <td>A good one. First, to hava a float product, the divider or quotient needs to be a float either as such or cast. That, and I didn't need to cast it, seeing I could have just had the one that required division just multiply diffferently. Math!</td>
     </tr>
 </table>

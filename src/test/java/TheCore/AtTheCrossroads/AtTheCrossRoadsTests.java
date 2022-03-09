@@ -181,4 +181,67 @@ public class AtTheCrossRoadsTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Arithmetic Expression")
+    public class ArithmeticExpressionTests {
+
+        ArithmeticExpression aE = new ArithmeticExpression();
+
+        @Test
+        public void aETest1() {
+            assertTrue(aE.solution(2,3,5));
+        }
+
+        @Test
+        public void aETest2() {
+            assertTrue(aE.solution(8,2,4));
+        }
+
+        @Test
+        public void aETest3() {
+            assertFalse(aE.solution(8,3,2));
+        }
+
+        @Test
+        public void aETest4() {
+            assertTrue(aE.solution(6,3,3));
+        }
+
+        @Test
+        public void aETest5() {
+            assertTrue(aE.solution(18,2,9));
+        }
+
+        @Test
+        public void aETest6() {
+            assertTrue(aE.solution(2,3,6));
+        }
+
+        @Test
+        public void aETest7() {
+            assertFalse(aE.solution(5,2,0));
+        }
+
+        @Test
+        public void aETest8() {
+            assertFalse(aE.solution(10,2,2));
+        }
+
+        @Test
+        public void aETest9() {
+            assertFalse(aE.solution(5,2,2));
+        }
+
+        @Test
+        public void aETest10() {
+            assertFalse(aE.solution(1,2,1));
+        }
+
+        @Test
+        public void aETest11() {
+            assertTrue(aE.solution(1,2,2));
+        }
+
+    }
 }
