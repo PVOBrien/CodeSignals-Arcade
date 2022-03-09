@@ -392,4 +392,12 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/mZAucMXhNMmT7JWta">Phone Call</a></td>
         <td>A fun one involving counting down/removing a counter of variable amounts. Mine wasn't the smallest - the others had a more mathematical algorithm, but I would opine my is more extensible and easier to read at the cost of being more verbose. So, trade off is all.</td>
     </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">At the Crossroads</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ReachNextLevel.java">8</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N">Reach Next Level</a></td>
+        <td>Add numbers, see if the sum is equal or greater to another integer.</td>
+    </tr>
 </table>
