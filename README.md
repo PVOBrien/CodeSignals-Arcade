@@ -400,4 +400,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N">Reach Next Level</a></td>
         <td>Add numbers, see if the sum is equal or greater to another integer.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ReachNextLevel.java">8</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/r9azLYp2BDZPyzaG2">Knapsack Light</a></td>
+        <td>Duplicate. Answer from <a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/KnapsackLight.java">Intro Knapsack Light</a> .</td>
+    </tr>
 </table>
