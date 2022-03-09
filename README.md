@@ -420,4 +420,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/QrCSNQWhnQoaK9KgK">Arithmetic Expression</a></td>
         <td>A good one. First, to hava a float product, the divider or quotient needs to be a float either as such or cast. That, and I didn't need to cast it, seeing I could have just had the one that required division just multiply diffferently. Math!</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/TennisSet.java">14</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2diw">Tennis Set</a></td>
+        <td>Annoying. Just numerous true/false conditions. It was kind they had all edge cases to test against (or, at least all edge cases they tested for). Also proud I implemented Math.max()/.min() on my own.</td>
+    </tr>
 </table>

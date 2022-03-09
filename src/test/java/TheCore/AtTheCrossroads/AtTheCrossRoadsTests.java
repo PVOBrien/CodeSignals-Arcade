@@ -244,4 +244,62 @@ public class AtTheCrossRoadsTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Tennis Set")
+    public class TennisSetTest {
+
+        TennisSet tS = new TennisSet();
+
+        @Test
+        public void tSTest1() {
+            assertTrue(tS.solution(3, 6));
+        }
+
+        @Test
+        public void tSTest2() {
+            assertFalse(tS.solution(8, 5));
+        }
+
+        @Test
+        public void tSTest3() {
+            assertFalse(tS.solution(6, 5));
+        }
+
+        @Test
+        public void tSTest4() {
+            assertFalse(tS.solution(4, 4));
+        }
+
+        @Test
+        public void tSTest5() {
+            assertTrue(tS.solution(6, 4));
+        }
+
+        @Test
+        public void tSTest6() {
+            assertTrue(tS.solution(7, 5));
+        }
+
+        @Test
+        public void tSTest7() {
+            assertFalse(tS.solution(7, 2));
+        }
+
+        @Test
+        public void tSTest8() {
+            assertTrue(tS.solution(7, 6));
+        }
+
+        @Test
+        public void tSTest9() {
+            assertFalse(tS.solution(4, 10));
+        }
+
+        @Test
+        public void tSTest10() {
+            assertFalse(tS.solution(0, 0));
+        }
+
+    }
 }
