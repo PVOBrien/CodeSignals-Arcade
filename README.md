@@ -410,4 +410,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/sgDWKCFQHHi5D3Szj">Extra Number</a></td>
         <td>This was a nice example on Java ternary statements, the takeaway being that you can chain ternarys, so that if it isn't one thing, than if it's another? Then... then... then.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/IsInfiniteProcess.java">12</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc/solutions">Is Infinite Process?</a></td>
+        <td>I got there, but it's hacky, and I couldn't quite find how a and b worked together to make it one less line of code.</td>
+    </tr>
 </table>

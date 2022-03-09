@@ -123,4 +123,62 @@ public class AtTheCrossRoadsTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Is Infinite Process")
+    public class IsInfiniteProcessTests {
+
+        IsInfiniteProcess iIP = new IsInfiniteProcess();
+
+        @Test
+        public void iIPTest1() {
+            assertFalse(iIP.solution(2,6));
+        }
+
+        @Test
+        public void iIPTest2() {
+            assertTrue(iIP.solution(2,3));
+        }
+
+        @Test
+        public void iIPTest3() {
+            assertFalse(iIP.solution(2,10));
+        }
+
+        @Test
+        public void iIPTest4() {
+            assertTrue(iIP.solution(0,1));
+        }
+
+        @Test
+        public void iIPTest5() {
+            assertTrue(iIP.solution(3,1));
+        }
+
+        @Test
+        public void iIPTest6() {
+            assertFalse(iIP.solution(10,10));
+        }
+
+        @Test
+        public void iIPTest7() {
+            assertTrue(iIP.solution(5,10));
+        }
+
+        @Test
+        public void iIPTest8() {
+            assertFalse(iIP.solution(6,10));
+        }
+
+        @Test
+        public void iIPTest9() {
+            assertTrue(iIP.solution(10,0));
+        }
+
+        @Test
+        public void iIPTest10() {
+            assertFalse(iIP.solution(5,5));
+        }
+
+    }
 }
