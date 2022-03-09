@@ -401,7 +401,7 @@
         <td>Add numbers, see if the sum is equal or greater to another integer.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ReachNextLevel.java">10</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/KnapsackLight.java">10</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/r9azLYp2BDZPyzaG2">Knapsack Light</a></td>
         <td>Duplicate. Answer from <a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/KnapsackLight.java">Intro Knapsack Light</a>.</td>
     </tr>
@@ -426,7 +426,12 @@
         <td>Annoying. Just numerous true/false conditions. It was kind they had all edge cases to test against (or, at least all edge cases they tested for). Also proud I implemented Math.max()/.min() on my own.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/MetroCard.java">15</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/WillYou.java">15</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/jZ4ZSiGohzFTeg4yb">Will You?</a></td>
+        <td>Okay, the actual code was nifty, nesting true/falses to evaluate against each other and <i>then</i> evaluate "not". However, it was phrased poorly so it's nigh impossible to now if it is isn't not a double negative. It deserves the more than double thumbs down.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/MetroCard.java">16</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/J7PQDxpWqhx7HrvBZ">Metro Card</a></td>
         <td>35 upvotes. 395 downvotes. This is bad and they should feel bad it's included. Because it is bad. Idk if the challenge is just shorthand array initialization, or parsing horrible descriptions?</td>
     </tr>
