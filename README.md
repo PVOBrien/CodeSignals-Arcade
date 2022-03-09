@@ -396,33 +396,38 @@
         <td colspan="3" style="text-align:center; font-size:2em;">At the Crossroads</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ReachNextLevel.java">9</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ReachNextLevel.java">9</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N">Reach Next Level</a></td>
         <td>Add numbers, see if the sum is equal or greater to another integer.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ReachNextLevel.java">10</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ReachNextLevel.java">10</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/r9azLYp2BDZPyzaG2">Knapsack Light</a></td>
         <td>Duplicate. Answer from <a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/KnapsackLight.java">Intro Knapsack Light</a>.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ExtraNumber.java">11</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ExtraNumber.java">11</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/sgDWKCFQHHi5D3Szj">Extra Number</a></td>
         <td>This was a nice example on Java ternary statements, the takeaway being that you can chain ternarys, so that if it isn't one thing, than if it's another? Then... then... then.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/IsInfiniteProcess.java">12</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/IsInfiniteProcess.java">12</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc">Is Infinite Process?</a></td>
         <td>I got there, but it's hacky, and I couldn't quite find how a and b worked together to make it one less line of code.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ArithmeticExpression.java">13</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ArithmeticExpression.java">13</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/QrCSNQWhnQoaK9KgK">Arithmetic Expression</a></td>
         <td>A good one. First, to hava a float product, the divider or quotient needs to be a float either as such or cast. That, and I didn't need to cast it, seeing I could have just had the one that required division just multiply diffferently. Math!</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/TennisSet.java">14</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/TennisSet.java">14</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2diw">Tennis Set</a></td>
         <td>Annoying. Just numerous true/false conditions. It was kind they had all edge cases to test against (or, at least all edge cases they tested for). Also proud I implemented Math.max()/.min() on my own.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/WillYou.java">12</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/jZ4ZSiGohzFTeg4yb">Will You?</a></td>
+        <td>Okay, the actual code was nifty, nesting true/falses to evaluate against each other and <i>then</i> evaluate "not". However, it was phrased poorly so it's nigh impossible to now if it is isn't not a double negative. It deserves the more than double thumbs down.</td>
     </tr>
 </table>

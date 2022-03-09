@@ -302,4 +302,32 @@ public class AtTheCrossRoadsTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Will You")
+    public class WillYouTest {
+
+        WillYou wY = new WillYou();
+
+        @Test
+        public void wYTest1() {
+            assertFalse(wY.solution(true, true, true));
+        }
+
+        @Test
+        public void wYTest2() {
+            assertTrue(wY.solution(true, false, true));
+        }
+
+        @Test
+        public void wYTest3() {
+            assertFalse(wY.solution(false, false, false));
+        }
+
+        @Test
+        public void wYTest4() {
+            assertTrue(wY.solution(false, false, true));
+        }
+
+    }
 }
