@@ -330,4 +330,22 @@ public class AtTheCrossRoadsTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Metro Card")
+    public class MetroCardTest {
+
+        MetroCard mC = new MetroCard();
+
+        @Test
+        public void mcTest1() {
+            assertArrayEquals(new int[]{31}, mC.solution(30));
+        }
+
+        @Test
+        public void mcTest2() {
+            assertArrayEquals(new int[]{28, 30, 31}, mC.solution(31));
+        }
+
+    }
 }
