@@ -65,4 +65,62 @@ public class AtTheCrossRoadsTests {
             assertTrue(rNL.solution(16, 23,16));
         }
     }
+
+    @Nested
+    @DisplayName("Extra Number")
+    public class ExtraNumberTests {
+
+        ExtraNumber eN = new ExtraNumber();
+
+        @Test
+        public void eNTest1() {
+            assertEquals(7, eN.solution(2,7,2));
+        }
+
+        @Test
+        public void eNTest2() {
+            assertEquals(3, eN.solution(3,2,2));
+        }
+
+        @Test
+        public void eNTest3() {
+            assertEquals(1, eN.solution(5,5,1));
+        }
+
+        @Test
+        public void eNTest4() {
+            assertEquals(3, eN.solution(500000000,3,500000000));
+        }
+
+        @Test
+        public void eNTest5() {
+            assertEquals(5, eN.solution(1,5,1));
+        }
+
+        @Test
+        public void eNTest6() {
+            assertEquals(3, eN.solution(5,5,3));
+        }
+
+        @Test
+        public void eNTest7() {
+            assertEquals(5, eN.solution(5,1,1));
+        }
+
+        @Test
+        public void eNTest8() {
+            assertEquals(3000000, eN.solution(4000000,3000000,4000000));
+        }
+
+        @Test
+        public void eNTest9() {
+            assertEquals(82231042, eN.solution(548442737,82231042,548442737));
+        }
+
+        @Test
+        public void eNTest10() {
+            assertEquals(469992838, eN.solution(469992838,66019520,66019520));
+        }
+
+    }
 }

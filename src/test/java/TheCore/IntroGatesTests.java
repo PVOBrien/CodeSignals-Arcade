@@ -9,7 +9,6 @@ import static org.junit.jupiter.api.Assertions.*;
 @DisplayName("Intro Gates")
 public class IntroGatesTests {
 
-
     @Nested
     @DisplayName("Add Two Digits")
     public class AddTwoDigitsTest {
