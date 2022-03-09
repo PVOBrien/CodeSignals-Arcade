@@ -358,8 +358,81 @@
         <td>A nice soft beginning to "The Core". Need to learn how to use the "::" method reference syntax and where that applies instead of writing out the whole object.method(i).</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LargestNumber.java">1</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LargestNumber.java">2</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/SZB5XypsMokGusDhX">Largest Number</a></td>
         <td>Heh. A created a solution by stringbuilding 9s to i. The better way: Math.pow(10, i) so that 10 to the ith power then minus one. No doubt quicker than my loop, and reads so much better. Nice trick.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/Candies.java">3</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/DdNKFA3XCX6XN7bNz">Candies</a></td>
+        <td>Find the quotient, then multiple it by the divisor, there's the answer.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/SeatsInTheater.java">4</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/bszFiQAog96G9CXKg">Seats in Theater</a></td>
+        <td>Most solvable, thanks to a fantastic example in the description, by finding the block of seats behind *your* row.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/MaxMultiple.java">5</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/HEsmEacHr2s9wahjr">Max Multiple</a></td>
+        <td>Same as Candies without the fun math story behind it.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CircleofNumbers.java">6</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/vExYvcGnFsEYSt8nQ">Circle of Numbers</a></td>
+        <td>So, I was pretty proud using the ternary statement to "wrap around" for the answer. But... modulo returns the exact same. Since if the number is less than the modulo amount, then it just returns that. TIL.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LateRide.java">7</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/aiKck9MwwAKyF8D4L">Late Ride</a></td>
+        <td>Was able to correctly diagnose went to use a class method reference, and touched on creating a lambda function (not that it was necessary lol, being a one-liner it would've fit right into the chain no problem) and out it came.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/PhoneCall.java">8</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/intro-gates/mZAucMXhNMmT7JWta">Phone Call</a></td>
+        <td>A fun one involving counting down/removing a counter of variable amounts. Mine wasn't the smallest - the others had a more mathematical algorithm, but I would opine my is more extensible and easier to read at the cost of being more verbose. So, trade off is all.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">At the Crossroads</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ReachNextLevel.java">9</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/m9wjpkCjgofg7gs8N">Reach Next Level</a></td>
+        <td>Add numbers, see if the sum is equal or greater to another integer.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/KnapsackLight.java">10</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/r9azLYp2BDZPyzaG2">Knapsack Light</a></td>
+        <td>Duplicate. Answer from <a href="https://github.com/PVOBrien/CodeSignals-ArcadeIntro/blob/main/src/main/java/Intro/KnapsackLight.java">Intro Knapsack Light</a>.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ExtraNumber.java">11</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/sgDWKCFQHHi5D3Szj">Extra Number</a></td>
+        <td>This was a nice example on Java ternary statements, the takeaway being that you can chain ternarys, so that if it isn't one thing, than if it's another? Then... then... then.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/IsInfiniteProcess.java">12</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/aFF9HDm2Rsti9j5kc">Is Infinite Process?</a></td>
+        <td>I got there, but it's hacky, and I couldn't quite find how a and b worked together to make it one less line of code.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/ArithmeticExpression.java">13</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/QrCSNQWhnQoaK9KgK">Arithmetic Expression</a></td>
+        <td>A good one. First, to hava a float product, the divider or quotient needs to be a float either as such or cast. That, and I didn't need to cast it, seeing I could have just had the one that required division just multiply diffferently. Math!</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/TennisSet.java">14</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/7jaup9HprdJno2diw">Tennis Set</a></td>
+        <td>Annoying. Just numerous true/false conditions. It was kind they had all edge cases to test against (or, at least all edge cases they tested for). Also proud I implemented Math.max()/.min() on my own.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/WillYou.java">15</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/jZ4ZSiGohzFTeg4yb">Will You?</a></td>
+        <td>Okay, the actual code was nifty, nesting true/falses to evaluate against each other and <i>then</i> evaluate "not". However, it was phrased poorly so it's nigh impossible to now if it is isn't not a double negative. It deserves the more than double thumbs down.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/AtTheCrossroads/MetroCard.java">16</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/J7PQDxpWqhx7HrvBZ">Metro Card</a></td>
+        <td>35 upvotes. 395 downvotes. This is bad and they should feel bad it's included. Because it is bad. Idk if the challenge is just shorthand array initialization, or parsing horrible descriptions?</td>
     </tr>
 </table>
