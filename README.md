@@ -435,4 +435,12 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/at-the-crossroads/J7PQDxpWqhx7HrvBZ">Metro Card</a></td>
         <td>35 upvotes. 395 downvotes. This is bad and they should feel bad it's included. Because it is bad. Idk if the challenge is just shorthand array initialization, or parsing horrible descriptions?</td>
     </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">Corner of 0s and 1s</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CornerOhsAndIs/RangeBitCount.java">16</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/eC2Zxu5H5SnuKxvPT">Range Bit Count</a></td>
+        <td>This was the only of the binary challenges I worked through; I'm not going to learn byte operations in 8 challenges. But! I did use my first flatmap knowing that it would be a smart answer. I needed help to find flatMap<i>ToInt</i> but otherwise I had all the other answers. #boss if you ask me.</td>
+    </tr>
 </table>
