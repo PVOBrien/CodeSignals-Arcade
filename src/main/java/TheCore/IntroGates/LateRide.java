@@ -1,4 +1,4 @@
-package TheCore;
+package TheCore.IntroGates;
 
 import java.util.function.IntUnaryOperator;
 
