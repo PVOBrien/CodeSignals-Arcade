@@ -451,4 +451,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/7BFPq6TpsNjzgcpXy">Least Factorial</a></td>
         <td>A fine quick show of how to use the shorthand *= operand to find the first number that equals or is greater than the input.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/CountSumTwoReps2.java">26</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/hBw5BJiZ4LmXcy92u">Count Sum of Two Representations 2</a></td>
+        <td>Another simple challenge. It uses the ability to fill in a missing number of a subtraction equation between two limits (inclusive).</td>
+    </tr>
 </table>

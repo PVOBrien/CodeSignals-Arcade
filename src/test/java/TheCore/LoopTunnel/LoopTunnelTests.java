@@ -66,5 +66,41 @@ public class LoopTunnelTests {
 
     }
 
+    @Nested
+    @DisplayName("CountSumTwoReps2")
+    public class CountSumTwoReps2Test {
 
+        CountSumTwoReps2 cSTRTwo = new CountSumTwoReps2();
+
+        @Test
+        public void cSTRTwo1() {
+            assertEquals(2, cSTRTwo.solution(6,2,4));
+        }
+
+        @Test
+        public void cSTRTwo2() {
+            assertEquals(1, cSTRTwo.solution(6,3,3));
+        }
+
+        @Test
+        public void cSTRTwo3() {
+            assertEquals(0, cSTRTwo.solution(10,9,11));
+        }
+
+        @Test
+        public void cSTRTwo4() {
+            assertEquals(5, cSTRTwo.solution(24,8,16));
+        }
+
+        @Test
+        public void cSTRTwo5() {
+            assertEquals(1, cSTRTwo.solution(24,12,12));
+        }
+
+        @Test
+        public void cSTRTwo6() {
+            assertEquals(12, cSTRTwo.solution(93,24,58));
+        }
+
+    }
 }
