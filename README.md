@@ -456,4 +456,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/hBw5BJiZ4LmXcy92u">Count Sum of Two Representations 2</a></td>
         <td>Another simple challenge. It uses the ability to fill in a missing number of a subtraction equation between two limits (inclusive).</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/MagicalWell.java">27</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LbuWRHnMoJH9SAo4o">Magical Well</a></td>
+        <td>Take two numbers, multiply them together and then increment x number of times. But! An IntStream() can be used to map the operation and sum it! Using a stream removes the need of a for loop, a result variable... it's why Streams are so much more elegant. In this case, an Intstream can be used to iterate over indices of an array. Wonderful! IntStream() FTW!</td>
+    </tr>
 </table>

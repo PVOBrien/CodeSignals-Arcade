@@ -103,4 +103,62 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Magical Well")
+    public class MagicalWellTest {
+
+        MagicalWell mW = new MagicalWell();
+
+        @Test
+        public void mWTest1() {
+            assertEquals(8, mW.solution(1,2,2));
+        }
+
+        @Test
+        public void mWTest2() {
+            assertEquals(1, mW.solution(1,1,1));
+        }
+
+        @Test
+        public void mWTest3() {
+            assertEquals(128, mW.solution(6,5,3));
+        }
+
+        @Test
+        public void mWTest4() {
+            assertEquals(0, mW.solution(1601,337,0));
+        }
+
+        @Test
+        public void mWTest5() {
+            assertEquals(0, mW.solution(1891,332,0));
+        }
+
+        @Test
+        public void mWTest6() {
+            assertEquals(17800540, mW.solution(1936,1835,5));
+        }
+
+        @Test
+        public void mWTest7() {
+            assertEquals(110113, mW.solution(957,57,2));
+        }
+
+        @Test
+        public void mWTest8() {
+            assertEquals(0, mW.solution(687,1337,0));
+        }
+
+        @Test
+        public void mWTest9() {
+            assertEquals(3060400, mW.solution(491,1552,4));
+        }
+
+        @Test
+        public void mWTest10() {
+            assertEquals(924738, mW.solution(1275,362,2));
+        }
+
+    }
 }
