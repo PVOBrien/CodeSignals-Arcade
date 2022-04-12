@@ -473,7 +473,12 @@
     </tr>
     <tr>
         <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Add Without Carry</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
         <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/IncreaseNumRoundness.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/KLbRMcWhaZi3dvYH5">Increase Number Roundness</a></td>
+        <td>This challenge got a bad rap somehow; your tasked with seeing if there's a zero followed by a non-zero integer (in the larger integer). So find a zero, then if there's a non-zero int after it, return true.</td>
     </tr>
 </table>

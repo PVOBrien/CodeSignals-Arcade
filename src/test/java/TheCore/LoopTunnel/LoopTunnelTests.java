@@ -300,4 +300,62 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Increase Number Roundness")
+    public class IncreaseNumRoundnessTest {
+
+        IncreaseNumRoundness iNR = new IncreaseNumRoundness();
+
+        @Test
+        public void iNRTest1() {
+            assertTrue(iNR.solution(902200100));
+        }
+
+        @Test
+        public void iNRTest2() {
+            assertFalse(iNR.solution(11000));
+        }
+
+        @Test
+        public void iNRTest3() {
+            assertTrue(iNR.solution(99080));
+        }
+
+        @Test
+        public void iNRTest4() {
+            assertTrue(iNR.solution(1022220));
+        }
+
+        @Test
+        public void iNRTest5() {
+            assertTrue(iNR.solution(106611));
+        }
+
+        @Test
+        public void iNRTest6() {
+            assertFalse(iNR.solution(234230));
+        }
+
+        @Test
+        public void iNRTest7() {
+            assertFalse(iNR.solution(888));
+        }
+
+        @Test
+        public void iNRTest8() {
+            assertFalse(iNR.solution(100));
+        }
+
+        @Test
+        public void iNRTest9() {
+            assertFalse(iNR.solution(1000000000));
+        }
+
+        @Test
+        public void iNRTest10() {
+            assertTrue(iNR.solution(103456789));
+        }
+
+    }
 }
