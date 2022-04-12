@@ -247,4 +247,57 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Apple Boxes")
+    public class AppleBoxesTest {
+
+        AppleBoxes aB = new AppleBoxes();
+
+        @Test
+        public void aBTest1() {
+            assertEquals(-15, aB.solution(5));
+        }
+
+        @Test
+        public void aBTest2() {
+            assertEquals(-120, aB.solution(15));
+        }
+
+        @Test
+        public void aBTest3() {
+            assertEquals(666, aB.solution(36));
+        }
+
+        @Test
+        public void aBTest4() {
+            assertEquals(-1, aB.solution(1));
+        }
+
+        @Test
+        public void aBTest5() {
+            assertEquals(105, aB.solution(14));
+        }
+
+        @Test
+        public void aBTest6() {
+            assertEquals(78, aB.solution(12));
+        }
+
+        @Test
+        public void aBTest7() {
+            assertEquals(-45, aB.solution(9));
+        }
+
+        @Test
+        public void aBTest8() {
+            assertEquals(820, aB.solution(40));
+        }
+
+        @Test
+        public void aBTest9() {
+            assertEquals(-703, aB.solution(37));
+        }
+
+    }
 }

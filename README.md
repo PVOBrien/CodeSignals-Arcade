@@ -471,4 +471,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S">Add Without Carry</a></td>
         <td>I gleaned a lot from this challenge. For better or worse I could not understand how to "peel off" the ones from an int until now. Modulo 10, then divide by 10. until the int is 0. This was a big get for me. I also included the impressive recursive approach to it, which is an impressive way of "leaving off" the ones before recursing down to the next. It's cool, I'll need to study it more to get it in.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Add Without Carry</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
 </table>
