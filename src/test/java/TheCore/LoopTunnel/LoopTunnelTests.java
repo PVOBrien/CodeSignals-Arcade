@@ -161,4 +161,52 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Line Up")
+    public class LineUpTest {
+
+        LineUp lU = new LineUp();
+
+        @Test
+        public void lUTest1(){
+            assertEquals(3, lU.solution("LLARL"));
+        }
+
+        @Test
+        public void lUTest2(){
+            assertEquals(1, lU.solution("RLR"));
+        }
+
+        @Test
+        public void lUTest3(){
+            assertEquals(0, lU.solution(""));
+        }
+
+        @Test
+        public void lUTest4(){
+            assertEquals(0, lU.solution("L"));
+        }
+
+        @Test
+        public void lUTest5(){
+            assertEquals(1, lU.solution("A"));
+        }
+
+        @Test
+        public void lUTest6(){
+            assertEquals(15, lU.solution("AAAAAAAAAAAAAAA"));
+        }
+
+        @Test
+        public void lUTest7(){
+            assertEquals(16, lU.solution("RRRRRRRRRRLLLLLLLLLRRRRLLLLLLLLLL"));
+        }
+
+        @Test
+        public void lUTest8(){
+            assertEquals(5, lU.solution("AALAAALARAR"));
+        }
+
+    }
 }

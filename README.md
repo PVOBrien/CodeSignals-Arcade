@@ -461,4 +461,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LbuWRHnMoJH9SAo4o">Magical Well</a></td>
         <td>Take two numbers, multiply them together and then increment x number of times. But! An IntStream() can be used to map the operation and sum it! Using a stream removes the need of a for loop, a result variable... it's why Streams are so much more elegant. In this case, an Intstream can be used to iterate over indices of an array. Wonderful! IntStream() FTW!</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/LineUp.java">28</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM">Line Up</a></td>
+        <td>Not my answer. This one got a pass from me, due to poor explanation, with only 2/3 of the instructions being meaningful, and of those 2, they're basically both the same. So this challenge was more about stripping out the noise to find the relevant data. However the example they use is so goofy I couldn't make heads or tails what was happening.</td>
+    </tr>
 </table>
