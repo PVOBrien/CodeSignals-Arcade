@@ -358,4 +358,47 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Rounders")
+    public class RoundersTest {
+
+        Rounders rounders = new Rounders();
+
+        @Test
+        public void roundersTest1() {
+            assertEquals(20, rounders.solution(15));
+        }
+
+        @Test
+        public void roundersTest2() {
+            assertEquals(1000, rounders.solution(1234));
+        }
+
+        @Test
+        public void roundersTest3() {
+            assertEquals(2000, rounders.solution(1445));
+        }
+
+        @Test
+        public void roundersTest4() {
+            assertEquals(10, rounders.solution(14));
+        }
+
+        @Test
+        public void roundersTest5() {
+            assertEquals(10, rounders.solution(10));
+        }
+
+        @Test
+        public void roundersTest6() {
+            assertEquals(7000, rounders.solution(7001));
+        }
+
+        @Test
+        public void roundersTest7() {
+            assertEquals(100, rounders.solution(99));
+        }
+
+    }
 }

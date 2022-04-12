@@ -481,4 +481,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/KLbRMcWhaZi3dvYH5">Increase Number Roundness</a></td>
         <td>This challenge got a bad rap somehow; your tasked with seeing if there's a zero followed by a non-zero integer (in the larger integer). So find a zero, then if there's a non-zero int after it, return true. Commented out was the regex solution. Protip: seems like if you add a + "" to an int it turns it into a String? will need to test.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Rounders.java">32</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH">Rounders</a></td>
+        <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
+    </tr>
 </table>
