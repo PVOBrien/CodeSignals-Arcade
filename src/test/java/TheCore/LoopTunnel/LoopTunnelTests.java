@@ -209,4 +209,42 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Addition Without Carrying")
+    public class AddWithoutCarryTest {
+
+        AddWithoutCarry aWC = new AddWithoutCarry();
+
+        @Test
+        public void aWCTest1() {
+            assertEquals(1180, aWC.solution(456, 1734));
+        }
+
+        @Test
+        public void aWCTest2() {
+            assertEquals(99999,aWC.solution(99999, 0));
+        }
+
+        @Test
+        public void aWCTest3() {
+            assertEquals(888,aWC.solution(999, 999));
+        }
+
+        @Test
+        public void aWCTest4() {
+            assertEquals(0, 0, 0);
+        }
+
+        @Test
+        public void aWCTest5() {
+            assertEquals(8642, 54321, 54321);
+        }
+
+        @Test
+        public void aWCTest6() {
+            assertEquals(0, 54321, 56789);
+        }
+
+    }
 }

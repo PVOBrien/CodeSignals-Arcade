@@ -466,4 +466,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM">Line Up</a></td>
         <td>Not my answer. This one got a pass from me, due to poor explanation, with only 2/3 of the instructions being meaningful, and of those 2, they're basically both the same. So this challenge was more about stripping out the noise to find the relevant data. However the example they use is so goofy I couldn't make heads or tails what was happening.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AddWithoutCarry.java">29</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S">Add Without Carry</a></td>
+        <td>I gleaned a lot from this challenge. For better or worse I could not understand how to "peel off" the ones from an int until now. Modulo 10, then divide by 10. until the int is 0. This was a big get for me. I also included the impressive recursive approach to it, which is an impressive way of "leaving off" the ones before recursing down to the next. It's cool, I'll need to study it more to get it in.</td>
+    </tr>
 </table>
