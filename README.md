@@ -509,4 +509,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/mCkmbxdMsMTjBc3Bm">Array Replace</a></td>
         <td>I used a for loop. But this would've been (read: <b>is</b>) a perfect time to stream over an array and then map the value, where if it equals that to be replaced, do so otherwise ternary and leave it as is. Such a great use of mapping, because all you need is the value at the index to work on, and output/map the determined value.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/FirstReverseTry.java">37</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/ND8nghbndTNKPP4Tb">First Reverse Try</a></td>
+        <td>Swap first and last value in an array.</td>
+    </tr>
 </table>
