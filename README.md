@@ -515,8 +515,13 @@
         <td>Swap first and last value in an array.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ConcatenateArrays.java">37</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ConcatenateArrays.java">38</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/GeqSK26bvdrarkGH9">Concatenate Arrays</a></td>
         <td>Read up on how System.arraycopy() works. What to copy, starting where, where to copy, starting where, how many to copy.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/RemoveArrayPart.java">39</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/vPJB7T28fyCeh2Ljn">Remove Array Part</a></td>
+        <td>I solved it with a for loop with an if statement. But IntStream.range()! then filter it so if it is not within left and right, then map it on through to an array! Reading a book on Java lambda and streams, streams capture <i>values</i> not <i>variables</i> but it can do anything with values (and then map what you want out of it). So fantastic!</td>
     </tr>
 </table>
