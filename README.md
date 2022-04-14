@@ -496,4 +496,12 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh">Count Black Cells</a></td>
         <td>Can't take credit for this one. I stared at it for a while, but didn't have a clue how I was going to walk this that wouldn't have beena an awful O(n)^3 solution (or worse) and I wasn't going to. Modulo to the rescue. When both n and m have remainder 0, it means they meet. You count the x (aka n), the y (aka m) because you have to at least traverse over and down, then include the max (how many squares it takes for them to join) then... subtract 2? Because the numbers aren't inclusive? Takeaway: if things need to meet, they need to both reach 0 using the same divisor.</td>
     </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">List Forest Edge</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/CreateArray.java">35</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/gmZFbpR9cirL3Jpf2">Create Array</a></td>
+        <td>Can't take credit for this one. I stared at it for a while, but didn't have a clue how I was going to walk this that wouldn't have beena an awful O(n)^3 solution (or worse) and I wasn't going to. Modulo to the rescue. When both n and m have remainder 0, it means they meet. You count the x (aka n), the y (aka m) because you have to at least traverse over and down, then include the max (how many squares it takes for them to join) then... subtract 2? Because the numbers aren't inclusive? Takeaway: if things need to meet, they need to both reach 0 using the same divisor.</td>
+    </tr>
 </table>
