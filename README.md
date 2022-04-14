@@ -486,4 +486,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH">Rounders</a></td>
         <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">32</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LAKReA3CR9EwkZGSz">Candles</a></td>
+        <td>A standard do/while countdown. There is a factorial-like approach solution to it, a one-liner, that you subtract one from each (why, not so sure, because one was already made? again, need to walk deep through it).</td>
+    </tr>
 </table>

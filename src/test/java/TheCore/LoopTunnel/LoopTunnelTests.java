@@ -401,4 +401,61 @@ public class LoopTunnelTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Candles")
+    public class CandlesTest {
+
+        Candles c = new Candles();
+
+        @Test
+        public void cTest1() {
+            assertEquals(9, c.solution(5,2));
+        }
+
+        @Test
+        public void cTest2() {
+            assertEquals(1, c.solution(1,2));
+        }
+
+        @Test
+        public void cTest3() {
+            assertEquals(4, c.solution(3,3));
+        }
+
+        @Test
+        public void cTest4() {
+            assertEquals(16, c.solution(11,3));
+        }
+
+        @Test
+        public void cTest5() {
+            assertEquals(18, c.solution(15,5));
+        }
+
+        @Test
+        public void cTest6() {
+            assertEquals(20, c.solution(14,3));
+        }
+
+        @Test
+        public void cTest7() {
+            assertEquals(20, c.solution(14,3));
+        }
+
+        @Test
+        public void cTest8() {
+            assertEquals(23, c.solution(12,2));
+        }
+
+        @Test
+        public void cTest9() {
+            assertEquals(7, c.solution(6,4));
+        }
+
+        @Test
+        public void cTest10() {
+            assertEquals(16, c.solution(13,5));
+        }
+    }
 }
