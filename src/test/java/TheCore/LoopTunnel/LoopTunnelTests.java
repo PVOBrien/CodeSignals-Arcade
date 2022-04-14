@@ -458,4 +458,62 @@ public class LoopTunnelTests {
             assertEquals(16, c.solution(13,5));
         }
     }
+
+    @Nested
+    @DisplayName("Count Black Cells")
+    public class CountBlackCellsTest{
+
+        CountBlackCells cBC = new CountBlackCells();
+
+        @Test
+        public void cBCTest1() {
+            assertEquals(6, cBC.solution(3,4));
+        }
+
+        @Test
+        public void cBCTest2() {
+            assertEquals(7, cBC.solution(3,3));
+        }
+
+        @Test
+        public void cBCTest3() {
+            assertEquals(6, cBC.solution(2,5));
+        }
+
+        @Test
+        public void cBCTest4() {
+            assertEquals(1, cBC.solution(1,1));
+        }
+
+        @Test
+        public void cBCTest5() {
+            assertEquals(3, cBC.solution(1,3));
+        }
+
+        @Test
+        public void cBCTest6() {
+            assertEquals(6, cBC.solution(3,4));
+        }
+
+        @Test
+        public void cBCTest7() {
+            assertEquals(239, cBC.solution(1,239));
+        }
+
+        @Test
+        public void cBCTest8() {
+            assertEquals(86, cBC.solution(33,44));
+        }
+
+        @Test
+        public void cBCTest9() {
+            assertEquals(30, cBC.solution(16,8));
+        }
+
+        @Test
+        public void cBCTest10() {
+            assertEquals(177774, cBC.solution(66666,88888));
+        }
+
+    }
 }

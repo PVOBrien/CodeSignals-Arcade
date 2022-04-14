@@ -487,8 +487,13 @@
         <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">32</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">33</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LAKReA3CR9EwkZGSz">Candles</a></td>
         <td>A standard do/while countdown. There is a factorial-like approach solution to it, a one-liner, that you subtract one from each (why, not so sure, because one was already made? again, need to walk deep through it).</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/CountBlackCells.java">34</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh">Count Black Cells</a></td>
+        <td>Can't take credit for this one. I stared at it for a while, but didn't have a clue how I was going to walk this that wouldn't have beena an awful O(n)^3 solution (or worse) and I wasn't going to. Modulo to the rescue. When both n and m have remainder 0, it means they meet. You count the x (aka n), the y (aka m) because you have to at least traverse over and down, then include the max (how many squares it takes for them to join) then... subtract 2? Because the numbers aren't inclusive? Takeaway: if things need to meet, they need to both reach 0 using the same divisor.</td>
     </tr>
 </table>
