@@ -439,8 +439,94 @@
         <td colspan="3" style="text-align:center; font-size:2em;">Corner of 0s and 1s</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CornerOhsAndIs/RangeBitCount.java">16</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/CornerOhsAndIs/RangeBitCount.java">19</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/corner-of-0s-and-1s/eC2Zxu5H5SnuKxvPT">Range Bit Count</a></td>
-        <td>This was the only of the binary challenges I worked through; I'm not going to learn byte operations in 8 challenges. But! I did use my first flatmap knowing that it would be a smart answer. I needed help to find flatMap<i>ToInt</i> but otherwise I had all the other answers. #boss if you ask me.</td>
+        <td>This was the only one of the binary challenges I worked through; I'm not going to learn byte operations in 8 challenges. But! I did use my first flatmap knowing that it would be a smart answer. I needed help to find flatMap<i>ToInt</i> but otherwise I had all the other answers. #boss if you ask me.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">Loop Tunnel</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/LeastFactorial.java">25</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/7BFPq6TpsNjzgcpXy">Least Factorial</a></td>
+        <td>A fine quick show of how to use the shorthand *= operand to find the first number that equals or is greater than the input.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/CountSumTwoReps2.java">26</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/hBw5BJiZ4LmXcy92u">Count Sum of Two Representations 2</a></td>
+        <td>Another simple challenge. It uses the ability to fill in a missing number of a subtraction equation between two limits (inclusive).</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/MagicalWell.java">27</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LbuWRHnMoJH9SAo4o">Magical Well</a></td>
+        <td>Take two numbers, multiply them together and then increment x number of times. But! An IntStream() can be used to map the operation and sum it! Using a stream removes the need of a for loop, a result variable... it's why Streams are so much more elegant. In this case, an Intstream can be used to iterate over indices of an array. Wonderful! IntStream() FTW!</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/LineUp.java">28</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/8rqs3BLpdKePhouQM">Line Up</a></td>
+        <td>Not my answer. This one got a pass from me, due to poor explanation, with only 2/3 of the instructions being meaningful, and of those 2, they're basically both the same. So this challenge was more about stripping out the noise to find the relevant data. However the example they use is so goofy I couldn't make heads or tails what was happening.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AddWithoutCarry.java">29</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/xzeZqCQjpfDJuN72S">Add Without Carry</a></td>
+        <td>I gleaned a lot from this challenge. For better or worse I could not understand how to "peel off" the ones from an int until now. Modulo 10, then divide by 10. until the int is 0. This was a big get for me. I also included the impressive recursive approach to it, which is an impressive way of "leaving off" the ones before recursing down to the next. It's cool, I'll need to study it more to get it in.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/IncreaseNumRoundness.java">31</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/KLbRMcWhaZi3dvYH5">Increase Number Roundness</a></td>
+        <td>This challenge got a bad rap somehow; your tasked with seeing if there's a zero followed by a non-zero integer (in the larger integer). So find a zero, then if there's a non-zero int after it, return true. Commented out was the regex solution. Protip: seems like if you add a + "" to an int it turns it into a String? will need to test.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Rounders.java">32</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH">Rounders</a></td>
+        <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">33</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LAKReA3CR9EwkZGSz">Candles</a></td>
+        <td>A standard do/while countdown. There is a factorial-like approach solution to it, a one-liner, that you subtract one from each (why, not so sure, because one was already made? again, need to walk deep through it).</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/CountBlackCells.java">34</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh">Count Black Cells</a></td>
+        <td>Can't take credit for this one. I stared at it for a while, but didn't have a clue how I was going to walk this that wouldn't have beena an awful O(n)^3 solution (or worse) and I wasn't going to. Modulo to the rescue. When both n and m have remainder 0, it means they meet. You count the x (aka n), the y (aka m) because you have to at least traverse over and down, then include the max (how many squares it takes for them to join) then... subtract 2? Because the numbers aren't inclusive? Takeaway: if things need to meet, they need to both reach 0 using the same divisor.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">List Forest Edge</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/CreateArray.java">35</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/gmZFbpR9cirL3Jpf2">Create Array</a></td>
+        <td>This one had me scratching my head asking, "why?" I made a loop, passed everything and then... learned about Arrays.fill()! Rock on! very helpful utility, just sitting there waiting to be used.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ArrayReplace.java">36</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/mCkmbxdMsMTjBc3Bm">Array Replace</a></td>
+        <td>I used a for loop. But this would've been (read: <b>is</b>) a perfect time to stream over an array and then map the value, where if it equals that to be replaced, do so otherwise ternary and leave it as is. Such a great use of mapping, because all you need is the value at the index to work on, and output/map the determined value.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/FirstReverseTry.java">37</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/ND8nghbndTNKPP4Tb">First Reverse Try</a></td>
+        <td>Swap first and last value in an array.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ConcatenateArrays.java">38</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/GeqSK26bvdrarkGH9">Concatenate Arrays</a></td>
+        <td>Read up on how System.arraycopy() works. What to copy, starting where, where to copy, starting where, how many to copy.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/RemoveArrayPart.java">39</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/vPJB7T28fyCeh2Ljn">Remove Array Part</a></td>
+        <td>I solved it with a for loop with an if statement. But IntStream.range()! then filter it so if it is not within left and right, then map it on through to an array! Reading a book on Java lambda and streams, streams capture <i>values</i> not <i>variables</i> but it can do anything with values (and then map what you want out of it). So fantastic!</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/IsSmooth.java">40</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/3LmZafR9wMCWpdgra">Is Smooth?</a></td>
+        <td>Find if first last and middle all equal each other. Finding the middle might involve adding the middle and -1 if the length is odd. That, and I constantly forget that when returning a boolean, you just set up the evaluation and return the boolean of it, no need to return true else false. <b>If it's not true...</b> it's false!</td>
     </tr>
 </table>

@@ -1,4 +1,4 @@
-package TheCore;
+package TheCore.IntroGates;
 
 public class PhoneCall {
 
