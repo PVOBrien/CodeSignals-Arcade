@@ -303,4 +303,66 @@ public class ListForestEdgeTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Replace Middle")
+    public class ReplaceMiddleTest {
+
+        ReplaceMiddle rM = new ReplaceMiddle();
+
+        @Test
+        public void rMTest1() {
+            int[] rArr = {7, 2, 7, 10, 7};
+            assertArrayEquals(rArr, rM.solution(new int[]{7, 2, 2, 5, 10, 7}));
+        }
+
+        @Test
+        public void rMTest2() {
+            int[] rArr = {-5, -5, 10};
+            assertArrayEquals(rArr, rM.solution(new int[]{-5, -5, 10}));
+        }
+
+        @Test
+        public void rMTest3() {
+            int[] rArr = {45, 23, 12, 45, 453, -234, -45};
+            assertArrayEquals(rArr, rM.solution(new int[]{45, 23, 12, 45, 453, -234, -45}));
+        }
+
+        @Test
+        public void rMTest4() {
+            int[] rArr = {10};
+            assertArrayEquals(rArr, rM.solution(new int[]{2, 8}));
+        }
+
+        @Test
+        public void rMTest5() {
+            int[] rArr = {-12, 34, 40, -5, -12, 4, 0, 0, -12};
+            assertArrayEquals(rArr, rM.solution(new int[]{-12, 34, 40, -5, -12, 4, 0, 0, -12}));
+        }
+
+        @Test
+        public void rMTest6() {
+            int[] rArr = {9, 15, 9};
+            assertArrayEquals(rArr, rM.solution(new int[]{9, 0, 15, 9}));
+        }
+
+        @Test
+        public void rMTest7() {
+            int[] rArr = {-6, 6, -6};
+            assertArrayEquals(rArr, rM.solution(new int[]{-6, 6, -6}));
+        }
+
+        @Test
+        public void rMTest8() {
+            int[] rArr = {26, 26, -17};
+            assertArrayEquals(rArr, rM.solution(new int[]{26, 26, -17}));
+        }
+
+        @Test
+        public void rMTest9() {
+            int[] rArr = {-7, 10, 10};
+            assertArrayEquals(rArr, rM.solution(new int[]{-7, 5, 5, 10}));
+        }
+
+    }
 }
