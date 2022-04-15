@@ -240,4 +240,67 @@ public class ListForestEdgeTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Is Smooth")
+    public class IsSmoothTests {
+
+        IsSmooth iS = new IsSmooth();
+
+        @Test
+        public void iSTest1() {
+            assertTrue(iS.solution(new int[]{7, 2, 2, 5, 10, 7}));
+        }
+
+        @Test
+        public void iSTest2() {
+            assertFalse(iS.solution(new int[]{-5, -5, 10}));
+        }
+
+        @Test
+        public void iSTest3() {
+            assertTrue(iS.solution(new int[]{7, 2, 2, 5, 10, 7}));
+        }
+
+        @Test
+        public void iSTest4() {
+            assertFalse(iS.solution(new int[]{45, 23, 12, 33, 12, 453, -234, -45}));
+        }
+
+        @Test
+        public void iSTest5() {
+            assertTrue(iS.solution(new int[]{-12, 34, 40, -5, -12, 4, 0, 0, -12}));
+        }
+
+        @Test
+        public void iSTest6() {
+            assertFalse(iS.solution(new int[]{9, 0, 15, 9}));
+        }
+
+        @Test
+        public void iSTest7() {
+            assertFalse(iS.solution(new int[]{-6, 6, -6}));
+        }
+
+        @Test
+        public void iSTest8() {
+            assertFalse(iS.solution(new int[]{26, 26, -17}));
+        }
+
+        @Test
+        public void iSTest9() {
+            assertFalse(iS.solution(new int[]{-7, 5, 5, 10}));
+        }
+
+        @Test
+        public void iSTest10() {
+            assertFalse(iS.solution(new int[]{3, 4, 5}));
+        }
+
+        @Test
+        public void iSTest11() {
+            assertFalse(iS.solution(new int[]{-5, 3, -1, 9}));
+        }
+
+    }
 }

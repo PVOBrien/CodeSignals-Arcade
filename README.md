@@ -524,4 +524,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/vPJB7T28fyCeh2Ljn">Remove Array Part</a></td>
         <td>I solved it with a for loop with an if statement. But IntStream.range()! then filter it so if it is not within left and right, then map it on through to an array! Reading a book on Java lambda and streams, streams capture <i>values</i> not <i>variables</i> but it can do anything with values (and then map what you want out of it). So fantastic!</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/IsSmooth.java">40</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/3LmZafR9wMCWpdgra">Is Smooth?</a></td>
+        <td>Find if first last and middle all equal each other. Finding the middle might involve adding the middle and -1 if the length is odd. That, and I constantly forget that when returning a boolean, you just set up the evaluation and return the boolean of it, no need to return true else false. <b>If it's not true...</b> it's false!</td>
+    </tr>
 </table>
