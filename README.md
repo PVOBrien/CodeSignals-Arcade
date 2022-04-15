@@ -529,4 +529,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/3LmZafR9wMCWpdgra">Is Smooth?</a></td>
         <td>Find if first last and middle all equal each other. Finding the middle might involve adding the middle and -1 if the length is odd. That, and I constantly forget that when returning a boolean, you just set up the evaluation and return the boolean of it, no need to return true else false. <b>If it's not true...</b> it's false!</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ReplaceMiddle.java">41</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/APD5T5CybxTtfkdjL">Replace Middle</a></td>
+        <td>Much like 40, once you find the middle if the length is odd, you add the middle and -1 index together than shift all the rest down to fit into the new array. Or, the smarter way, you can use the plus equal operator and work towards the middle, at which point if the middle overlaps, it still just adds in and voila. Way more elegant than mine with the whole "after the middle, shift everything down one" nonsense. I should do a video about this one.</td>
+    </tr>
 </table>
