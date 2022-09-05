@@ -541,7 +541,7 @@
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">a silence</td>
     <tr>
-        <td colspan="3">A went on a sabbatical. Just up and left for 3 months. Upon coming back, I have no recollection of the last... 4 months of actual work. Forgive me as I fast-forward to today. Apologies for the discrepancy here.</td>
+        <td colspan="3">I went on a sabbatical. Just up and left for 3 months. Upon coming back, I have no recollection of the last... 4 months of actual work. Forgive me as I fast-forward to today. Apologies for the discrepancy here.</td>
     </tr>
     <tr></tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Labyrinth of Nested Loops</td>
@@ -559,6 +559,6 @@
     <tr>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">51</a> </td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">Enclose in Brackets</a></td>
-        <td>Just going to find the beginning and end and add " " " to front and end.</td>
+        <td>Just going to find the beginning and end and add " " " to front and end.<br>And that's just what I did. Stringbuilder, and inserted the "(" at the front and appended the ")" to the end and sent it out .toString(). Worked like a charm.</td>
     </tr>
 </table>
