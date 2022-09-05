@@ -494,4 +494,52 @@
     <tr>
         <td><a href="=" " </td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">33</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/LAKReA3CR9EwkZGSz">Candles</a></td>
+        <td>A standard do/while countdown. There is a factorial-like approach solution to it, a one-liner, that you subtract one from each (why, not so sure, because one was already made? again, need to walk deep through it).</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/CountBlackCells.java">34</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/RcK4vupi8sFhakjnh">Count Black Cells</a></td>
+        <td>Can't take credit for this one. I stared at it for a while, but didn't have a clue how I was going to walk this that wouldn't have beena an awful O(n)^3 solution (or worse) and I wasn't going to. Modulo to the rescue. When both n and m have remainder 0, it means they meet. You count the x (aka n), the y (aka m) because you have to at least traverse over and down, then include the max (how many squares it takes for them to join) then... subtract 2? Because the numbers aren't inclusive? Takeaway: if things need to meet, they need to both reach 0 using the same divisor.</td>
+    </tr>
+    <tr>
+        <td colspan="3" style="text-align:center; font-size:2em;">List Forest Edge</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/CreateArray.java">35</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/gmZFbpR9cirL3Jpf2">Create Array</a></td>
+        <td>This one had me scratching my head asking, "why?" I made a loop, passed everything and then... learned about Arrays.fill()! Rock on! very helpful utility, just sitting there waiting to be used.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ArrayReplace.java">36</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/mCkmbxdMsMTjBc3Bm">Array Replace</a></td>
+        <td>I used a for loop. But this would've been (read: <b>is</b>) a perfect time to stream over an array and then map the value, where if it equals that to be replaced, do so otherwise ternary and leave it as is. Such a great use of mapping, because all you need is the value at the index to work on, and output/map the determined value.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/FirstReverseTry.java">37</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/ND8nghbndTNKPP4Tb">First Reverse Try</a></td>
+        <td>Swap first and last value in an array.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ConcatenateArrays.java">38</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/GeqSK26bvdrarkGH9">Concatenate Arrays</a></td>
+        <td>Read up on how System.arraycopy() works. What to copy, starting where, where to copy, starting where, how many to copy.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/RemoveArrayPart.java">39</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/vPJB7T28fyCeh2Ljn">Remove Array Part</a></td>
+        <td>I solved it with a for loop with an if statement. But IntStream.range()! then filter it so if it is not within left and right, then map it on through to an array! Reading a book on Java lambda and streams, streams capture <i>values</i> not <i>variables</i> but it can do anything with values (and then map what you want out of it). So fantastic!</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/IsSmooth.java">40</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/3LmZafR9wMCWpdgra">Is Smooth?</a></td>
+        <td>Find if first last and middle all equal each other. Finding the middle might involve adding the middle and -1 if the length is odd. That, and I constantly forget that when returning a boolean, you just set up the evaluation and return the boolean of it, no need to return true else false. <b>If it's not true...</b> it's false!</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/ListForestEdge/ReplaceMiddle.java">41</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/APD5T5CybxTtfkdjL">Replace Middle</a></td>
+        <td>Much like 40, once you find the middle if the length is odd, you add the middle and -1 index together than shift all the rest down to fit into the new array. Or, the smarter way, you can use the plus equal operator and work towards the middle, at which point if the middle overlaps, it still just adds in and voila. Way more elegant than mine with the whole "after the middle, shift everything down one" nonsense. I should do a video about this one.</td>
+    </tr>
 </table>
