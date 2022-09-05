@@ -482,8 +482,16 @@
         <td>This challenge got a bad rap somehow; your tasked with seeing if there's a zero followed by a non-zero integer (in the larger integer). So find a zero, then if there's a non-zero int after it, return true. Commented out was the regex solution. Protip: seems like if you add a + "" to an int it turns it into a String? will need to test.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Rounders.java">32</a></td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH">Rounders</a></td>
-        <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
+    <tr>
+        <td><a href="=" " </td>
     </tr>
 </table>
