@@ -557,7 +557,7 @@
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Book Market</td>
     <tr>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">51</a> </td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/EncloseInBrackets.java">51</a> </td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">Enclose in Brackets</a></td>
         <td>Just going to find the beginning and end and add " " " to front and end.<br>And that's just what I did. Stringbuilder, and inserted the "(" at the front and appended the ")" to the end and sent it out .toString(). Worked like a charm.</td>
     </tr>
