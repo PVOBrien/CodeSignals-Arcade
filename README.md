@@ -482,9 +482,14 @@
         <td>This challenge got a bad rap somehow; your tasked with seeing if there's a zero followed by a non-zero integer (in the larger integer). So find a zero, then if there's a non-zero int after it, return true. Commented out was the regex solution. Protip: seems like if you add a + "" to an int it turns it into a String? will need to test.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Rounders.java">32</a></td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/H5PP5MXvYvWXxTytH">Rounders</a></td>
-        <td>Manually rounding up/down. There's my solution, and then there's the concise solution that condenses my line by line version with 16 lines down to 6, and it is in the end <i>also</i> more legible. But... done and working is better than not.</td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/AppleBoxes.java">30</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/loop-tunnel/scG8AFsPuqQGx8Qjf">Apple Boxes</a></td>
+        <td>This is a kind of factorial? The easy, brute force is the way I tackled it: keep on adding it all up then find the difference. The smarter, math-centric version realizes it'll be either positive or minus total based on if it's an even or odd k (which means you could also resolve that portion of it with a modulo approach. Then everything is multiplied by k, then by k+1 divided by two. That second half I still need to work through more indepth. For another time.</td>
     </tr>
     <tr>
         <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LoopTunnel/Candles.java">33</a></td>
@@ -534,4 +539,20 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/list-forest-edge/APD5T5CybxTtfkdjL">Replace Middle</a></td>
         <td>Much like 40, once you find the middle if the length is odd, you add the middle and -1 index together than shift all the rest down to fit into the new array. Or, the smarter way, you can use the plus equal operator and work towards the middle, at which point if the middle overlaps, it still just adds in and voila. Way more elegant than mine with the whole "after the middle, shift everything down one" nonsense. I should do a video about this one.</td>
     </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">a silence</td>
+    <tr>
+        <td colspan="3">A went on a sabbatical. Just up and left for 3 months. Upon coming back, I have no recollection of the last... 4 months of actual work. Forgive me as I fast-forward to today. Apologies for the discrepancy here.</td>
+    </tr>
+    <tr></tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Labyrinth of Nested Loops</td>
+        <tr>
+            <td>...</td>
+            <td>...</td>
+            <td>...</td>
+        </tr>
+        <tr>
+            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">50</a></td>
+            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">Crossword Formation</a></td>
+            <td>My solution was taken from <a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF/solutions?solutionId=bks4QSiZSKyGNRDe5">the best Java solution</a> because I took a 3-month sabbatical, and I had little memory of my code. However, looking at their solution x mine, mine was close; "half way" - in the sense that I was getting half the words correctly, and I was aiming for a very similar solution, albeit where this one was going after every single permutation of the words together, I was trying to do a couple steps less brute force, by hashmapping them, then only going down a path if there was one available. Alas, didn't work out. This shall be a #whitewhale.</td>
+        </tr>
 </table>
