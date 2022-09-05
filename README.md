@@ -545,14 +545,20 @@
     </tr>
     <tr></tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Labyrinth of Nested Loops</td>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        <tr>
-            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">50</a></td>
-            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">Crossword Formation</a></td>
-            <td>My solution was taken from <a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF/solutions?solutionId=bks4QSiZSKyGNRDe5">the best Java solution</a> because I took a 3-month sabbatical, and I had little memory of my code. However, looking at their solution x mine, mine was close; "half way" - in the sense that I was getting half the words correctly, and I was aiming for a very similar solution, albeit where this one was going after every single permutation of the words together, I was trying to do a couple steps less brute force, by hashmapping them, then only going down a path if there was one available. Alas, didn't work out. This shall be a #whitewhale.</td>
-        </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LabOfNestedLoops/CrosswordFormation.java">50</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">Crossword Formation</a></td>
+        <td>My solution was taken from <a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF/solutions?solutionId=bks4QSiZSKyGNRDe5">the best Java solution</a> because I took a 3-month sabbatical, and I had little memory of my code. However, looking at their solution x mine, mine was close; "half way" - in the sense that I was getting half the words correctly, and I was aiming for a very similar solution, albeit where this one was going after every single permutation of the words together, I was trying to do a couple steps less brute force, by hashmapping them, then only going down a path if there was one available. Alas, didn't work out. This shall be a #whitewhale.</td>
+    </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Book Market</td>
+    <tr>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">51</a> </td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">Enclose in Brackets</a></td>
+        <td>Just going to find the beginning and end and add " " " to front and end.</td>
+    </tr>
 </table>
