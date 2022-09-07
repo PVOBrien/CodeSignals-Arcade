@@ -75,4 +75,55 @@ public class BookMarketTests {
             assertEquals("(wont)", eIB.solution(test));
         }
     }
+
+    @Nested
+    @DisplayName("Proper Noun Capitalization")
+    public class ProperNounCapitalizationTests {
+
+        ProperNounCorrection pNC = new ProperNounCorrection();
+
+        @Test
+        public void pNCT1() {
+            assertEquals("Paris", pNC.solution("pARiS"));
+        }
+
+        @Test
+        public void pNCT2() {
+            assertEquals("John", pNC.solution("John"));
+        }
+        @Test
+        public void pNCT3() {
+            assertEquals("Mary", pNC.solution("mary"));
+        }
+        @Test
+        public void pNCT4() {
+            assertEquals("A", pNC.solution("a"));
+        }
+        @Test
+        public void pNCT5() {
+            assertEquals("B", pNC.solution("B"));
+        }
+        @Test
+        public void pNCT6() {
+            assertEquals("Yfzmlgvuqp", pNC.solution("yFZMlGvUQP"));
+        }
+        @Test
+        public void pNCT7() {
+            assertEquals("Hqqrrdxuqe", pNC.solution("HQQrrDxuqe"));
+        }
+        @Test
+        public void pNCT8() {
+            assertEquals("Atdh", pNC.solution("atDh"));
+        }
+        @Test
+        public void pNCT9() {
+            assertEquals("Pjhsyvazb", pNC.solution("pJHSYVAZB"));
+        }
+        @Test
+        public void pNCT10() {
+            assertEquals("Dkrqo", pNC.solution("dKrqO"));
+        }
+
+
+    }
 }

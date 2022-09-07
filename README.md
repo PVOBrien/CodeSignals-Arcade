@@ -561,4 +561,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">Enclose in Brackets</a></td>
         <td>Just going to find the beginning and end and add " " " to front and end.<br>And that's just what I did. Stringbuilder, and inserted the "(" at the front and appended the ")" to the end and sent it out .toString(). Worked like a charm.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/ProperNounCorrection.java">52</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/2nSEQ8CGoddTJtnbo">Proper Noun Correction</a></td>
+        <td>Going to pull the first letter, capitalize it, and lowercase all the rest. Slight realization, I *always* use/start with stringbuilder and then .toString() it at the end. Really for a oneliner like this, it's not worth it; just concatenate a couple strings together with a + and call it a function.</td>
+    </tr>
 </table>
