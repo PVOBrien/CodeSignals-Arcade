@@ -566,4 +566,19 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/2nSEQ8CGoddTJtnbo">Proper Noun Correction</a></td>
         <td>Going to pull the first letter, capitalize it, and lowercase all the rest. Slight realization, I *always* use/start with stringbuilder and then .toString() it at the end. Really for a oneliner like this, it's not worth it; just concatenate a couple strings together with a + and call it a function.</td>
     </tr>
+    <tr>
+        <td>53</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/2SDWWyHY9Xw5CpphY">Is Tandem Repeat?</a></td>
+        <td>One-liner: Return if first half substring is second half substring, t/f. Didn't even make an entry here.</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/G9wj2j6zaWwFWsise">Is Case-Insensitive Palindrome?</a></td>
+        <td>Another one not worth a full suite here, just like the above but the second half reversed. <b>Notes:</b> you can't chain reverse(). onto StringBuilder, and because of substring not being inclusive, or how ints are halved, I used a ternary to add an extra 1 or not. Which is something that there weren't tests for :frownyangryface:</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/TXFLopNcCNbJLQivP">Find Email Domain</a></td>
+        <td>Woohoo regex! Proud to say I made this one myself \w+[^@]?\w+[.]\w+$ and it successfully passes the tests, because I know it's not exhaustive for capturing email domains</td>
+    </tr>
 </table>
