@@ -581,4 +581,19 @@
         <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/TXFLopNcCNbJLQivP">Find Email Domain</a></td>
         <td>Woohoo regex! Proud to say I made this one myself \w+[^@]?\w+[.]\w+$ and it successfully passes the tests, because I know it's not exhaustive for capturing email domains</td>
     </tr>
+    <tr>
+        <td>56</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/MX94DWTrwQw2gLrTi">HTML End Tag By Start Tag</a></td>
+        <td>Woohoo regex! Another simple one, regex, pattern pattern.compile(regex), matcher matcher pattern.matcher(String), while (match.find) and then concatenate a few more items onto the return.</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/HJ2thsvjL25iCvvdm">Is MAC48 Address?</a></td>
+        <td>Woohoo regex! I believe this is a remix of an code challenge sometime earlier. [A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}$ is it</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/IsUnstablePair.java">58</a></td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/Ky2mjgmxnWLi6KNPp">Is Unstable Pair?</a></td>
+        <td>This was an odd one. Dealt with lexicographical equality and ordering. Now, I wouldn't have been able to solve it anyhow, because somehow it was saying to check the first letter that wasn't the same and then see if it was because one is uppercase and the other isn't. That was what the description said. But it was so much more than that, yet could all be simply wrapped up in a couple checks with the compareto() method and then lowercasing the string and then using compareto with them again. So if anything deals with lexicography, it's going to use String.compareto(). So... I learned a good amount, and got a refresher on loops (int i = 0; i < length(); i++) haha been a minute.</td>
+    </tr>
 </table>

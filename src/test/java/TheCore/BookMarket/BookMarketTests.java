@@ -123,7 +123,62 @@ public class BookMarketTests {
         public void pNCT10() {
             assertEquals("Dkrqo", pNC.solution("dKrqO"));
         }
+    }
 
+    @Nested
+    @DisplayName("Is Unstable Pair?")
+    public class IsUnstablePairTest {
 
+        IsUnstablePair iUP = new IsUnstablePair();
+
+        @Test
+        public void iUPT1() {
+            assertTrue(iUP.solution("aa", "AAB"));
+        }
+
+        @Test
+        public void iUPT2() {
+            assertFalse(iUP.solution("A", "z"));
+        }
+
+        @Test
+        public void iUPT3() {
+            assertFalse(iUP.solution("yyyyyy", "Azzzzzzzzz"));
+        }
+
+        @Test
+        public void iUPT4() {
+            assertTrue(iUP.solution("mehOu", "mehau"));
+        }
+
+        @Test
+        public void iUPT5() {
+            assertTrue(iUP.solution("aaZ", "AAzz"));
+        }
+
+        @Test
+        public void iUPT6() {
+            assertFalse(iUP.solution("fdsAs", "dzdw"));
+        }
+
+        @Test
+        public void iUPT7() {
+            assertTrue(iUP.solution("aaad", "aaAdd"));
+        }
+
+        @Test
+        public void iUPT8() {
+            assertTrue(iUP.solution("zzzzzAa123", "zzzzza"));
+        }
+
+        @Test
+        public void iUPT9() {
+            assertFalse(iUP.solution("123za", "123Z"));
+        }
+
+        @Test
+        public void iUPT10() {
+            assertTrue(iUP.solution("qwerTyu123", "qwertyu"));
+        }
     }
 }
