@@ -6,44 +6,32 @@ import java.util.stream.IntStream;
 import java.util.stream.Stream;
 
 public class StringsConstruction {
-
     int solution(String a, String b) {
-        int endCount = 0;
 
-        Stream<Character> charStream = IntStream // https://stackoverflow.com/questions/15590675/converting-char-array-to-list-in-java
+        Stream<Character> charStream = IntStream
                 .range(0, a.length())
                 .mapToObj(a::charAt);
         List<Character> aList = charStream.collect(Collectors.toList());
-        HashMap<Character, Integer> aHashSet = new HashMap<>(); // needs to be a hashmap of letter and count
+        HashMap<Character, Integer> aHashSet = new HashMap<>();
 
         for (Character c : aList) {
             aHashSet.computeIfPresent(c, (k, v) -> v + 1);
             aHashSet.putIfAbsent(c, 1);
         }
 
-        HashMap<Character, Integer> testSet = new HashMap<>(aHashSet); // make a copy of the hashmap, not a reference to the original
-        for (int i = 0; i < b.length()-a.length()+1; i++) { // need to substring to the length of String a and then run this.
+        int[] charArray = new int[26];
+        for (int i = 0; i < b.length(); i++) {
+            int theLetterNumber = b.charAt(i)-97;
             char theLetter = b.charAt(i);
-            if (testSet.containsKey(theLetter)) {
-                endCount = isMatch(b.subSequence(i, i + a.length()), testSet)
-                        ? endCount + 1
-                        : endCount;
-            }
-            testSet = new HashMap<>(aHashSet); // reset the set
+            charArray[theLetterNumber] = aHashSet.containsKey(theLetter)
+                    ? charArray[theLetterNumber] + 1
+                    : charArray[theLetterNumber];
         }
-        return endCount;
-    }
-    boolean isMatch(CharSequence subS, HashMap<Character, Integer> testSet) {
-        for (int i = 0; i < subS.length(); i++) {
-            char theChar = subS.charAt(i);
-            if (testSet.containsKey(theChar)) {
-                if (testSet.get(theChar) == 1) {
-                    testSet.remove(theChar);
-                } else {
-                    testSet.computeIfPresent(theChar, (k, v) -> v - 1);
-                }
-            }
+
+        for (Map.Entry<Character, Integer> set: aHashSet.entrySet()) {
+            if (charArray[set.getKey()-97] == 0 || charArray[set.getKey()-97]/set.getValue() == 0) return 0;
+            charArray[set.getKey()-97] = charArray[set.getKey()-97]/set.getValue();
         }
-        return testSet.size() == 0;
+        return Arrays.stream(charArray).filter(i -> i > 0).min().orElse(0);
     }
 }

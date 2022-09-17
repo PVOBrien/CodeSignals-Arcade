@@ -596,4 +596,10 @@
         <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/Ky2mjgmxnWLi6KNPp">Is Unstable Pair?</a></td>
         <td>This was an odd one. Dealt with lexicographical equality and ordering. Now, I wouldn't have been able to solve it anyhow, because somehow it was saying to check the first letter that wasn't the same and then see if it was because one is uppercase and the other isn't. That was what the description said. But it was so much more than that, yet could all be simply wrapped up in a couple checks with the compareto() method and then lowercasing the string and then using compareto with them again. So if anything deals with lexicography, it's going to use String.compareto(). So... I learned a good amount, and got a refresher on loops (int i = 0; i < length(); i++) haha been a minute.</td>
     </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Mirror Lake</td>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/StringsConstruction.java">59</a></td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/mirror-lake/chW9F8bCgxYJBcgj3">Strings Construction</a></td>
+        <td>Nice. Firstly, this one doesn't have the best description and examples, really only showcasing 1.5 of the test cases, basically only the best and happy path. So, a smidge more misdirection than I think is acceptable, when the description and example only kind of match up. That out of the way, it was an awesome code challenge. Ternaries, streams, key-value pairs, an array via char ints, both a vanilla for loop and enhanced for loop... I almost was going to create my first lambda method, until I realized I was going down the wrong algorithm :eyeroll: :huffyface:. But the amount of coding stuff used in was 10/10, would use again.</td>
+    </tr>
 </table>
