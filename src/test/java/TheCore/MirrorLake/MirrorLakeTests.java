@@ -56,7 +56,8 @@ public class MirrorLakeTests {
 
         @Test
         public void scT9() {
-            assertEquals(3, sC.solution("hnccv", "hncvohcjhdfnhonxddcocjncchnvohchnjohcvnhjdhihsn"));
+//            assertEquals(3, sC.solution("hnccv", "hncvhchnhnccncchnvhchnhcvnhdhhn")); h = 11, n = 8, c 8, v= 3
+            assertEquals(3, sC.solution("hnccv", "ocjncchnvohchnjohcvnhjdhihsn"));
         }
 
         @Test

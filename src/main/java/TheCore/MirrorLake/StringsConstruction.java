@@ -22,7 +22,7 @@ public class StringsConstruction {
         }
 
         HashMap<Character, Integer> testSet = new HashMap<>(aHashSet); // make a copy of the hashmap, not a reference to the original
-        for (int i = 0; i < b.length(); i++) { // need to substring to the length of String a and then run this.
+        for (int i = 0; i < b.length()-a.length()+1; i++) { // need to substring to the length of String a and then run this.
             char theLetter = b.charAt(i);
             if (testSet.containsKey(theLetter)) {
                 endCount = isMatch(b.subSequence(i, i + a.length()), testSet)
