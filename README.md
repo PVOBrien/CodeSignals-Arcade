@@ -607,4 +607,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/rNrF4v5etMdFNKD3s">Is Substitution Cipher?</a></td>
         <td>Not sure why this one is getting the hate. It's checking that a cipher/replacement mapping lines up. There's a few lines of thoughtful a==b / a!=b / b==a thinking, but nothing sneaky. I couldn't quite get the smarter method of checking against a single hashmap so my solution is heftier, but gets the job done. The better one is to <ol><li>check if it doesn't contain the key, <i>then</i><li>if the map doesn't, you separately check that it doesn't already have <i>the value</i></li></ol> and that way you know you aren't setting a mapping off an already existing <i>value</i>. I just couldn't quite reason my way there.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/CreateAnagram.java">61</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BsShkFDfbkWxozmMN">Create Anagram</a></td>
+        <td>Was really hoping to do this one all in browser, but alas, two bits more logic than I was thinking, thinking that at the end it would just be what remained in the hashmap, but that's not the case. First I tossed the letters of the first string into hashmap to know what the count was, and then I iterated through the second string, ticking off any letters from the first, and if no match, tick up count by one, then return the count. So, time is O(n) because you iterate through each string once.</td>
+    </tr>
 </table>

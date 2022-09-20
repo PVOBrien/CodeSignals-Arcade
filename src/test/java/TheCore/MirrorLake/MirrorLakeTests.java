@@ -131,4 +131,22 @@ public class MirrorLakeTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Create Anagram")
+    public class CreateAnagramTest {
+
+        CreateAnagram cA = new CreateAnagram();
+
+        @Test
+        public void cATest1() {
+            assertEquals(1, cA.solution("BAAAA", "BBAAA"));
+        }
+
+        @Test
+        public void cATest2() {
+            assertEquals(4, cA.solution("OVGHK", "RPGUC"));
+        }
+
+    }
 }
