@@ -168,4 +168,10 @@ public class MirrorLakeTests {
 
     }
 
+    @Nested
+    @DisplayName("Different Squares")
+    public class DifferentSquaresTest {
+
+        DifferentSquares dS = new DifferentSquares();
+    }
 }
