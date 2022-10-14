@@ -612,4 +612,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BsShkFDfbkWxozmMN">Create Anagram</a></td>
         <td>Was really hoping to do this one all in browser, but alas, two bits more logic than I was thinking, thinking that at the end it would just be what remained in the hashmap, but that's not the case. First I tossed the letters of the first string into hashmap to know what the count was, and then I iterated through the second string, ticking off any letters from the first, and if no match, tick up count by one, then return the count. So, time is O(n) because you iterate through each string once.</td>
     </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/NumbersGrouping.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/kGeuCkJNbqczCCqgg">Numbers Grouping</a></td>
+        <td>Getting back into it, I came up with a super convoluted way to find each potential pool of numbers, check if the array index int fits, loop through until not, then move up. <i>ORRRRR</i> I could have thrown them into a hashset after dividing the number by a thousand AND subtracting one so it falls correctly into the pool because 0 (and each successive multiple) is inclusive then summing how many hits are in the set + the original size of the array. Done and don. <br> Yeah, so my multi-day headscratching is a comfortable 6-7 lines. My solution is twice the lines, variables everywhere. And really, with some streaming work I bet it could be a relatively clean one-liner using Arrays.stream().</td>
+    </tr>
 </table>

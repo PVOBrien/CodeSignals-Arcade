@@ -149,4 +149,23 @@ public class MirrorLakeTests {
         }
 
     }
+
+    @Nested
+    @DisplayName("Numbers Grouping")
+    public class NumbersGroupingTest {
+
+        NumbersGrouping nGT = new NumbersGrouping();
+
+        @Test
+        public void nGT1(){
+            assertEquals(11,nGT.solution(new int[]{20000, 239, 10001, 999999, 10000, 20566, 29999}));
+        }
+
+        @Test
+        public void nGT1SS(){
+            assertEquals(28, nGT.simpleSol(new int[]{10000, 20000, 30000, 40000, 50000, 60000, 10000, 120000, 150000, 200000, 300000, 1000000, 10000000, 100000000, 10000000}));
+        }
+
+    }
+
 }
