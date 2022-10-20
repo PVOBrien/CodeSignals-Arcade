@@ -598,23 +598,28 @@
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Mirror Lake</td>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/StringsConstruction.java">59</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/StringsConstruction.java">59</a></td>
         <td><a href=https://app.codesignal.com/arcade/code-arcade/mirror-lake/chW9F8bCgxYJBcgj3">Strings Construction</a></td>
         <td>Nice. Firstly, this one doesn't have the best description and examples, really only showcasing 1.5 of the test cases, basically only the best and happy path. So, a smidge more misdirection than I think is acceptable, when the description and example only kind of match up. That out of the way, it was an awesome code challenge. Ternaries, streams, key-value pairs, an array via char ints, both a vanilla for loop and enhanced for loop... I almost was going to create my first lambda method, until I realized I was going down the wrong algorithm :eyeroll: :huffyface:. But the amount of coding stuff used in was 10/10, would use again.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/IsSubstitutionCipher.java">60</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/IsSubstitutionCipher.java">60</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/rNrF4v5etMdFNKD3s">Is Substitution Cipher?</a></td>
         <td>Not sure why this one is getting the hate. It's checking that a cipher/replacement mapping lines up. There's a few lines of thoughtful a==b / a!=b / b==a thinking, but nothing sneaky. I couldn't quite get the smarter method of checking against a single hashmap so my solution is heftier, but gets the job done. The better one is to <ol><li>check if it doesn't contain the key, <i>then</i><li>if the map doesn't, you separately check that it doesn't already have <i>the value</i></li></ol> and that way you know you aren't setting a mapping off an already existing <i>value</i>. I just couldn't quite reason my way there.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/CreateAnagram.java">61</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/CreateAnagram.java">61</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BsShkFDfbkWxozmMN">Create Anagram</a></td>
         <td>Was really hoping to do this one all in browser, but alas, two bits more logic than I was thinking, thinking that at the end it would just be what remained in the hashmap, but that's not the case. First I tossed the letters of the first string into hashmap to know what the count was, and then I iterated through the second string, ticking off any letters from the first, and if no match, tick up count by one, then return the count. So, time is O(n) because you iterate through each string once.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/NumbersGrouping.java">63</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/NumbersGrouping.java">63</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/kGeuCkJNbqczCCqgg">Numbers Grouping</a></td>
         <td>Getting back into it, I came up with a super convoluted way to find each potential pool of numbers, check if the array index int fits, loop through until not, then move up. <i>ORRRRR</i> I could have thrown them into a hashset after dividing the number by a thousand AND subtracting one so it falls correctly into the pool because 0 (and each successive multiple) is inclusive then summing how many hits are in the set + the original size of the array. Done and don. <br> Yeah, so my multi-day headscratching is a comfortable 6-7 lines. My solution is twice the lines, variables everywhere. And really, with some streaming work I bet it could be a relatively clean one-liner using Arrays.stream().</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/MostFrequentDigitSum.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/RpoP4Aqa5mbmC8koC">Most Frequent Digit Sum</a></td>
+        <td>This was a strange-ish one. Take a number, sum the digits, subtract from the number, rinse and repeat until zero. So, you need some way to sum the number, so that's a mini-algo, then you need to store them, then find the highest number with the highest hits. I had a little issue getting the logic ready, but eventually got it. <br>Then I look at the answers and... if it's greater than 999 it'll always be 18, if it's between 999 and 9 (inclusive) it'll be 9, or it'll be the number. <i>What?!</i> I have no idea.</td>
     </tr>
 </table>

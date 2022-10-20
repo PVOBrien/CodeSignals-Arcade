@@ -174,4 +174,17 @@ public class MirrorLakeTests {
 
         DifferentSquares dS = new DifferentSquares();
     }
+
+    @Nested
+    @DisplayName("Most Frequent Digit Sum")
+    public class MostFrequentDigitSumTest {
+
+        MostFrequentDigitSum mFDS = new MostFrequentDigitSum();
+
+        @Test
+        public void mFDSTest1(){
+            assertEquals(9, mFDS.correctSolution(88));
+        }
+
+    }
 }
