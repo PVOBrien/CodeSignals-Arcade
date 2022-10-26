@@ -168,12 +168,12 @@ public class MirrorLakeTests {
 
     }
 
-    @Nested
+/*    @Nested
     @DisplayName("Different Squares")
     public class DifferentSquaresTest {
 
         DifferentSquares dS = new DifferentSquares();
-    }
+    } */
 
     @Nested
     @DisplayName("Most Frequent Digit Sum")
@@ -184,6 +184,23 @@ public class MirrorLakeTests {
         @Test
         public void mFDSTest1(){
             assertEquals(9, mFDS.correctSolution(88));
+        }
+
+    }
+
+    @Nested
+    @DisplayName("Number of Clans")
+    public class NumberOfClansTest {
+        NumberOfClans noC = new NumberOfClans();
+
+        @Test
+        public void nOCT1() {
+            assertEquals(4, noC.solution(new int[]{2,3}, 4));
+        }
+
+        @Test
+        public void nOCT2() {
+            assertNotEquals(5, noC.solution(new int[]{2,3,4,7}, 14));
         }
 
     }
