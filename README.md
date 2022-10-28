@@ -627,4 +627,10 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC">Number of Clans</a></td>
         <td>I got the answer from the <a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC/solutions?solutionId=9F6qHfsaJiC8YYWeL">Solutions</a> because I could see with the number of downvotes something was amiss, and this one would've bit me. The way the description reads it's either all, none, or sum concerning how to pool (aka "clan" with "friends") integers. No, it's predicated on whether each integer is specifically divisible by each divisor. The description shows a correct answer, but the laying out of the description misses that key part, or says both, when it should say "each, able" or... something like that. Glad I spent 200 coins to not labor this one. The solution however, is nice, basically a set of whether the number is/is not divisable for each divisor and integer. String those together, put that value into the set. It's not required to order or find a specific "clan", just how many. So find out how many unique clans are -> return size, <i>et voila!</i></td>
     </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Well of Integration</td>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/WellofIntegration/HouseNumbersSum.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7">HouseNumbersSum</a></td>
+        <td></td>
+    </tr>
 </table>
