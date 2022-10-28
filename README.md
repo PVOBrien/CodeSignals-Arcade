@@ -631,6 +631,6 @@
     <tr>
         <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/WellofIntegration/HouseNumbersSum.java">63</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7">HouseNumbersSum</a></td>
-        <td></td>
+        <td>Love an easy if(condition) break code challenge. Answered all in browser. Add until a zero shows up, then return.</td>
     </tr>
 </table>
