@@ -11,9 +11,7 @@ dependencies {
     implementation 'com.google.guava:guava:31.1-jre'
     implementation 'org.junit.jupiter:junit-jupiter:5.8.2'
     implementation 'junit:junit:4.13.1'
-    implementation 'junit:junit:4.13.1'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.2'
-    testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
     testImplementation 'org.junit.jupiter:junit-jupiter:5.8.1'
 }
 
