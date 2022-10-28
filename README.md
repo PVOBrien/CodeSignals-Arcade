@@ -541,18 +541,90 @@
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">a silence</td>
     <tr>
-        <td colspan="3">A went on a sabbatical. Just up and left for 3 months. Upon coming back, I have no recollection of the last... 4 months of actual work. Forgive me as I fast-forward to today. Apologies for the discrepancy here.</td>
+        <td colspan="3">I went on a sabbatical. Just up and left for 3 months. Upon coming back, I have no recollection of the last... 4 months of actual work. Forgive me as I fast-forward to today. Apologies for the discrepancy here.</td>
     </tr>
     <tr></tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Labyrinth of Nested Loops</td>
-        <tr>
-            <td>...</td>
-            <td>...</td>
-            <td>...</td>
-        </tr>
-        <tr>
-            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">50</a></td>
-            <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">Crossword Formation</a></td>
-            <td>My solution was taken from <a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF/solutions?solutionId=bks4QSiZSKyGNRDe5">the best Java solution</a> because I took a 3-month sabbatical, and I had little memory of my code. However, looking at their solution x mine, mine was close; "half way" - in the sense that I was getting half the words correctly, and I was aiming for a very similar solution, albeit where this one was going after every single permutation of the words together, I was trying to do a couple steps less brute force, by hashmapping them, then only going down a path if there was one available. Alas, didn't work out. This shall be a #whitewhale.</td>
-        </tr>
+    <tr>
+        <td>...</td>
+        <td>...</td>
+        <td>...</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/main/src/main/java/TheCore/LabOfNestedLoops/CrosswordFormation.java">50</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF">Crossword Formation</a></td>
+        <td>My solution was taken from <a href="https://app.codesignal.com/arcade/code-arcade/labyrinth-of-nested-loops/W5Sq7taLSzNHh8GiF/solutions?solutionId=bks4QSiZSKyGNRDe5">the best Java solution</a> because I took a 3-month sabbatical, and I had little memory of my code. However, looking at their solution x mine, mine was close; "half way" - in the sense that I was getting half the words correctly, and I was aiming for a very similar solution, albeit where this one was going after every single permutation of the words together, I was trying to do a couple steps less brute force, by hashmapping them, then only going down a path if there was one available. Alas, didn't work out. This shall be a #whitewhale.</td>
+    </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Book Market</td>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/EncloseInBrackets.java">51</a> </td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/K2ieDm98sPDzzMepz">Enclose in Brackets</a></td>
+        <td>Just going to find the beginning and end and add " " " to front and end.<br>And that's just what I did. Stringbuilder, and inserted the "(" at the front and appended the ")" to the end and sent it out .toString(). Worked like a charm.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/ProperNounCorrection.java">52</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/2nSEQ8CGoddTJtnbo">Proper Noun Correction</a></td>
+        <td>Going to pull the first letter, capitalize it, and lowercase all the rest. Slight realization, I *always* use/start with stringbuilder and then .toString() it at the end. Really for a oneliner like this, it's not worth it; just concatenate a couple strings together with a + and call it a function.</td>
+    </tr>
+    <tr>
+        <td>53</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/book-market/2SDWWyHY9Xw5CpphY">Is Tandem Repeat?</a></td>
+        <td>One-liner: Return if first half substring is second half substring, t/f. Didn't even make an entry here.</td>
+    </tr>
+    <tr>
+        <td>54</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/G9wj2j6zaWwFWsise">Is Case-Insensitive Palindrome?</a></td>
+        <td>Another one not worth a full suite here, just like the above but the second half reversed. <b>Notes:</b> you can't chain reverse(). onto StringBuilder, and because of substring not being inclusive, or how ints are halved, I used a ternary to add an extra 1 or not. Which is something that there weren't tests for :frownyangryface:</td>
+    </tr>
+    <tr>
+        <td>55</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/TXFLopNcCNbJLQivP">Find Email Domain</a></td>
+        <td>Woohoo regex! Proud to say I made this one myself \w+[^@]?\w+[.]\w+$ and it successfully passes the tests, because I know it's not exhaustive for capturing email domains</td>
+    </tr>
+    <tr>
+        <td>56</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/MX94DWTrwQw2gLrTi">HTML End Tag By Start Tag</a></td>
+        <td>Woohoo regex! Another simple one, regex, pattern pattern.compile(regex), matcher matcher pattern.matcher(String), while (match.find) and then concatenate a few more items onto the return.</td>
+    </tr>
+    <tr>
+        <td>57</td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/HJ2thsvjL25iCvvdm">Is MAC48 Address?</a></td>
+        <td>Woohoo regex! I believe this is a remix of an code challenge sometime earlier. [A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}-[A-F0-9]{2}$ is it</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/BookMarket/IsUnstablePair.java">58</a></td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/book-market/Ky2mjgmxnWLi6KNPp">Is Unstable Pair?</a></td>
+        <td>This was an odd one. Dealt with lexicographical equality and ordering. Now, I wouldn't have been able to solve it anyhow, because somehow it was saying to check the first letter that wasn't the same and then see if it was because one is uppercase and the other isn't. That was what the description said. But it was so much more than that, yet could all be simply wrapped up in a couple checks with the compareto() method and then lowercasing the string and then using compareto with them again. So if anything deals with lexicography, it's going to use String.compareto(). So... I learned a good amount, and got a refresher on loops (int i = 0; i < length(); i++) haha been a minute.</td>
+    </tr>
+    <td colspan="3" style="text-align:center; font-size:2em;">Mirror Lake</td>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/StringsConstruction.java">59</a></td>
+        <td><a href=https://app.codesignal.com/arcade/code-arcade/mirror-lake/chW9F8bCgxYJBcgj3">Strings Construction</a></td>
+        <td>Nice. Firstly, this one doesn't have the best description and examples, really only showcasing 1.5 of the test cases, basically only the best and happy path. So, a smidge more misdirection than I think is acceptable, when the description and example only kind of match up. That out of the way, it was an awesome code challenge. Ternaries, streams, key-value pairs, an array via char ints, both a vanilla for loop and enhanced for loop... I almost was going to create my first lambda method, until I realized I was going down the wrong algorithm :eyeroll: :huffyface:. But the amount of coding stuff used in was 10/10, would use again.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/IsSubstitutionCipher.java">60</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/rNrF4v5etMdFNKD3s">Is Substitution Cipher?</a></td>
+        <td>Not sure why this one is getting the hate. It's checking that a cipher/replacement mapping lines up. There's a few lines of thoughtful a==b / a!=b / b==a thinking, but nothing sneaky. I couldn't quite get the smarter method of checking against a single hashmap so my solution is heftier, but gets the job done. The better one is to <ol><li>check if it doesn't contain the key, <i>then</i><li>if the map doesn't, you separately check that it doesn't already have <i>the value</i></li></ol> and that way you know you aren't setting a mapping off an already existing <i>value</i>. I just couldn't quite reason my way there.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/BookMarket/src/main/java/TheCore/MirrorLake/CreateAnagram.java">61</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BsShkFDfbkWxozmMN">Create Anagram</a></td>
+        <td>Was really hoping to do this one all in browser, but alas, two bits more logic than I was thinking, thinking that at the end it would just be what remained in the hashmap, but that's not the case. First I tossed the letters of the first string into hashmap to know what the count was, and then I iterated through the second string, ticking off any letters from the first, and if no match, tick up count by one, then return the count. So, time is O(n) because you iterate through each string once.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/NumbersGrouping.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/kGeuCkJNbqczCCqgg">Numbers Grouping</a></td>
+        <td>Getting back into it, I came up with a super convoluted way to find each potential pool of numbers, check if the array index int fits, loop through until not, then move up. <i>ORRRRR</i> I could have thrown them into a hashset after dividing the number by a thousand AND subtracting one so it falls correctly into the pool because 0 (and each successive multiple) is inclusive then summing how many hits are in the set + the original size of the array. Done and don. <br> Yeah, so my multi-day headscratching is a comfortable 6-7 lines. My solution is twice the lines, variables everywhere. And really, with some streaming work I bet it could be a relatively clean one-liner using Arrays.stream().</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/MostFrequentDigitSum.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/RpoP4Aqa5mbmC8koC">Most Frequent Digit Sum</a></td>
+        <td>This was a strange-ish one. Take a number, sum the digits, subtract from the number, rinse and repeat until zero. So, you need some way to sum the number, so that's a mini-algo, then you need to store them, then find the highest number with the highest hits. I had a little issue getting the logic ready, but eventually got it. <br>Then I look at the answers and... if it's greater than 999 it'll always be 18, if it's between 999 and 9 (inclusive) it'll be 9, or it'll be the number. <i>What?!</i> I have no idea.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/NumberOfClans.java">63</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC">Number of Clans</a></td>
+        <td>I got the answer from the <a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC/solutions?solutionId=9F6qHfsaJiC8YYWeL">Solutions</a> because I could see with the number of downvotes something was amiss, and this one would've bit me. The way the description reads it's either all, none, or sum concerning how to pool (aka "clan" with "friends") integers. No, it's predicated on whether each integer is specifically divisible by each divisor. The description shows a correct answer, but the laying out of the description misses that key part, or says both, when it should say "each, able" or... something like that. Glad I spent 200 coins to not labor this one. The solution however, is nice, basically a set of whether the number is/is not divisable for each divisor and integer. String those together, put that value into the set. It's not required to order or find a specific "clan", just how many. So find out how many unique clans are -> return size, <i>et voila!</i></td>
+    </tr>
 </table>
