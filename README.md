@@ -629,8 +629,13 @@
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Well of Integration</td>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/WellofIntegration/HouseNumbersSum.java">63</a></td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7">HouseNumbersSum</a></td>
+        <td>63</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7">House Numbers Sum</a></td>
         <td>Love an easy if(condition) break code challenge. Answered all in browser. Add until a zero shows up, then return.</td>
+    </tr>
+    <tr>
+        <td>64</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr2bL">All Longest Strings</a></td>
+        <td>Yeah another straightforward one. Find the longest string, return all strings (in an array) of same (greatest) length. Completed in browser.</td>
     </tr>
 </table>
