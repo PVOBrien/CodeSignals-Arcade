@@ -618,29 +618,34 @@
         <td>Getting back into it, I came up with a super convoluted way to find each potential pool of numbers, check if the array index int fits, loop through until not, then move up. <i>ORRRRR</i> I could have thrown them into a hashset after dividing the number by a thousand AND subtracting one so it falls correctly into the pool because 0 (and each successive multiple) is inclusive then summing how many hits are in the set + the original size of the array. Done and don. <br> Yeah, so my multi-day headscratching is a comfortable 6-7 lines. My solution is twice the lines, variables everywhere. And really, with some streaming work I bet it could be a relatively clean one-liner using Arrays.stream().</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/MostFrequentDigitSum.java">63</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/MostFrequentDigitSum.java">64</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/RpoP4Aqa5mbmC8koC">Most Frequent Digit Sum</a></td>
         <td>This was a strange-ish one. Take a number, sum the digits, subtract from the number, rinse and repeat until zero. So, you need some way to sum the number, so that's a mini-algo, then you need to store them, then find the highest number with the highest hits. I had a little issue getting the logic ready, but eventually got it. <br>Then I look at the answers and... if it's greater than 999 it'll always be 18, if it's between 999 and 9 (inclusive) it'll be 9, or it'll be the number. <i>What?!</i> I have no idea.</td>
     </tr>
     <tr>
-        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/NumberOfClans.java">63</a></td>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/blob/MirrorLake/src/main/java/TheCore/MirrorLake/NumberOfClans.java">66</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC">Number of Clans</a></td>
         <td>I got the answer from the <a href="https://app.codesignal.com/arcade/code-arcade/mirror-lake/BLbGNY3kEcvKjBCFC/solutions?solutionId=9F6qHfsaJiC8YYWeL">Solutions</a> because I could see with the number of downvotes something was amiss, and this one would've bit me. The way the description reads it's either all, none, or sum concerning how to pool (aka "clan" with "friends") integers. No, it's predicated on whether each integer is specifically divisible by each divisor. The description shows a correct answer, but the laying out of the description misses that key part, or says both, when it should say "each, able" or... something like that. Glad I spent 200 coins to not labor this one. The solution however, is nice, basically a set of whether the number is/is not divisable for each divisor and integer. String those together, put that value into the set. It's not required to order or find a specific "clan", just how many. So find out how many unique clans are -> return size, <i>et voila!</i></td>
     </tr>
     <td colspan="3" style="text-align:center; font-size:2em;">Well of Integration</td>
     <tr>
-        <td>63</td>
+        <td>67</td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/3QMXNwGfvLMoQwed7">House Numbers Sum</a></td>
         <td>Love an easy if(condition) break code challenge. Answered all in browser. Add until a zero shows up, then return.</td>
     </tr>
     <tr>
-        <td>64</td>
+        <td>68</td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr2bL">All Longest Strings</a></td>
         <td>Yeah another straightforward one. Find the longest string, return all strings (in an array) of same (greatest) length. Completed in browser.</td>
     </tr>
     <tr>
-        <td>65</td>
+        <td>69</td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/RaWLwT2eb96hp4N5Z">House of Cats</a></td>
         <td>It looked more frightening at the outset, but thankfully the example had everything necessary to find the algorithm. I got it on the first pass, no joke. I optimized it some and there you go. Needed help to get an Integer arraylist to an int array, but I knew that's what I wanted to do, just needed the steps. Halve it, start at one or zero if odd or even, count up to half the number of legs. #Done. Completed in-browser.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/tree/WellofIntegration/src/main/java/TheCore/WellOfIntegration/AlphabetSubSequence.java">70</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/Z9opBsx5fX6XfQJdt">Number of Clans</a></td>
+        <td>Return that the string is ascends in the alphabet, no duplicates. </td>
     </tr>
 </table>
