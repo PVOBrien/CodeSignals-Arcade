@@ -638,4 +638,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/fzsCQGYbxaEcTr2bL">All Longest Strings</a></td>
         <td>Yeah another straightforward one. Find the longest string, return all strings (in an array) of same (greatest) length. Completed in browser.</td>
     </tr>
+    <tr>
+        <td>65</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/RaWLwT2eb96hp4N5Z">House of Cats</a></td>
+        <td>It looked more frightening at the outset, but thankfully the example had everything necessary to find the algorithm. I got it on the first pass, no joke. I optimized it some and there you go. Needed help to get an Integer arraylist to an int array, but I knew that's what I wanted to do, just needed the steps. Halve it, start at one or zero if odd or even, count up to half the number of legs. #Done. Completed in-browser.</td>
+    </tr>
 </table>
