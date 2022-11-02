@@ -646,6 +646,11 @@
     <tr>
         <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/tree/WellofIntegration/src/main/java/TheCore/WellOfIntegration/AlphabetSubSequence.java">70</a></td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/Z9opBsx5fX6XfQJdt">Number of Clans</a></td>
-        <td>Return that the string is ascends in the alphabet, no duplicates. </td>
+        <td>Return that the string is ascends in the alphabet, no duplicates.</td>
+    </tr>
+    <tr>
+        <td>71</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/sGwCfM5FzX7LhLcdk">Minimal Number of Coins</a></td>
+        <td>Count down from the top, how many times it goes into the price, on down to 0. I had a while loop, could have just divided it and then got the remainder using modulo. Doing so would've shaved two lines of code off. mxm!</td>
     </tr>
 </table>
