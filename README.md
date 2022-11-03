@@ -653,4 +653,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/sGwCfM5FzX7LhLcdk">Minimal Number of Coins</a></td>
         <td>Count down from the top, how many times it goes into the price, on down to 0. I had a while loop, could have just divided it and then got the remainder using modulo. Doing so would've shaved two lines of code off. mxm!</td>
     </tr>
+    <tr>
+        <td>72</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/ZCD7NQnED724bJtjN">Add Border</a></td>
+        <td>Completed in browser. An "add a border of ***s to an array of strings". Got it first time, and used a stream to return the list as a string array. #boom feeling accomplished.</td>
+    </tr>
 </table>
