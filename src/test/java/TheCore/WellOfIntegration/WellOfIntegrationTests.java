@@ -18,4 +18,17 @@ public class WellOfIntegrationTests {
             assertFalse(aSS.solution("effg"));
         }
     }
+
+    @Nested
+    @DisplayName("Switch Lights")
+    public class SwitchLightsTest {
+        SwitchLights sL = new SwitchLights();
+
+        @Test
+        public void sLT1() {
+            int[] testInt = new int[]{1, 1, 1, 1, 1};
+            int[] resultInt = new int[]{0, 1, 0, 1, 0};
+            assertArrayEquals(resultInt, sL.solution(testInt));
+        }
+    }
 }
