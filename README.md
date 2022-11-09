@@ -659,4 +659,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/mJr7vgtN4X4ecL7ZA">Timed Reading</a></td>
         <td>A nice straightforward challenge, was able to return the answer with a Stream, regex, filter, and casting. I had one edge case I solved poorly but *shrug*. I didn't split a String off of all non-Alphanumeric characters, just a space, and instead then "replaceAll"ed all non alphanumeric characters. Same sort of result, just an extra couple lines/chain of code.</td>
     </tr>
+    <tr>
+        <td>75</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/8RiRRM3yvbuAd3MNg">Election Winners</a></td>
+        <td>I remember this from somewhere. I was prepared for it, but it came much easier. THe best Java answer used three different streams on it, uses 2 less lines than mine, but I think mine is marginally faster a O(n), looping through once to find the max, then potentially a full second time. idk. Close I think, on that point.</td>
+    </tr>
 </table>
