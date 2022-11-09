@@ -653,9 +653,10 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/sGwCfM5FzX7LhLcdk">Minimal Number of Coins</a></td>
         <td>Count down from the top, how many times it goes into the price, on down to 0. I had a while loop, could have just divided it and then got the remainder using modulo. Doing so would've shaved two lines of code off. mxm!</td>
     </tr>
+<td colspan="3" style="text-align:center">72 & 73 completed in browser</td>
     <tr>
-        <td>72</td>
-        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/ZCD7NQnED724bJtjN">Add Border</a></td>
-        <td>Completed in browser. An "add a border of ***s to an array of strings". Got it first time, and used a stream to return the list as a string array. #boom feeling accomplished.</td>
+        <td>74</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/mJr7vgtN4X4ecL7ZA">Timed Reading</a></td>
+        <td>A nice straightforward challenge, was able to return the answer with a Stream, regex, filter, and casting. I had one edge case I solved poorly but *shrug*. I didn't split a String off of all non-Alphanumeric characters, just a space, and instead then "replaceAll"ed all non alphanumeric characters. Same sort of result, just an extra couple lines/chain of code.</td>
     </tr>
 </table>
