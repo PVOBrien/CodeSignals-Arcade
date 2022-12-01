@@ -664,4 +664,9 @@
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/8RiRRM3yvbuAd3MNg">Election Winners</a></td>
         <td>I remember this from somewhere. I was prepared for it, but it came much easier. THe best Java answer used three different streams on it, uses 2 less lines than mine, but I think mine is marginally faster a O(n), looping through once to find the max, then potentially a full second time. idk. Close I think, on that point.</td>
     </tr>
+    <tr>
+        <td>76</td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/kvGfZZxGyjNbD7yxv">Integer to String of Fixed Width</a></td>
+        <td>Back! Solved in-browser. Good to get a near-oneliner under the belt (and could've been if I didn't mind a hurking long oneliner). Return an integer as a string with either a shortened version (starting at the ones location) or longer version with leading '0's. Cranked out a ternary for the return, felt good.</td>
+    </tr>
 </table>
