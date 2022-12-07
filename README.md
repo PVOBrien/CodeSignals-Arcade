@@ -662,11 +662,16 @@
     <tr>
         <td>75</td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/8RiRRM3yvbuAd3MNg">Election Winners</a></td>
-        <td>I remember this from somewhere. I was prepared for it, but it came much easier. THe best Java answer used three different streams on it, uses 2 less lines than mine, but I think mine is marginally faster a O(n), looping through once to find the max, then potentially a full second time. idk. Close I think, on that point.</td>
+        <td>I remember this from somewhere. I was prepared for it, but it came much easier. The best Java answer used three different streams on it, uses 2 less lines than mine, but I think mine is marginally faster a O(n), looping through once to find the max, then potentially a full second time. idk. Close I think, on that point.</td>
     </tr>
     <tr>
         <td>76</td>
         <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/kvGfZZxGyjNbD7yxv">Integer to String of Fixed Width</a></td>
         <td>Back! Solved in-browser. Good to get a near-oneliner under the belt (and could've been if I didn't mind a hurking long oneliner). Return an integer as a string with either a shortened version (starting at the ones location) or longer version with leading '0's. Cranked out a ternary for the return, felt good.</td>
+    </tr>
+    <tr>
+        <td><a href="https://github.com/PVOBrien/CodeSignals-Arcade/tree/WellofIntegration/src/main/java/TheCore/WellOfIntegration/AreSimilar.java">77</a></td>
+        <td><a href="https://app.codesignal.com/arcade/code-arcade/well-of-integration/xYXfzQmnhBvEKJwXP">Are Similar?</a></td>
+        <td>It's this one! Again! But I was ready. Firstly, I had to hope against hope that just Array.sort()ing them both would make them happy. <i>This did not.</i> So I got to iterating through it, and just finding that both arrays were identical and hurrah! and if not, to find only 2 pairs that either did match vice versa, and if they did not then return false. The kicker: they had a test case that the first indices didn't match BUT all else did. And this needed to be false because if there's a mismatched pair, then that pair MUST MATCH. So, my dirty-as-sin solution: return the opposite of a boolean flag seeing there's a mismatch or not. Hence: if isMismatch is false, then all pairs are paired off and it returns true. BUT if there IS still a mismatched pair out there, then false it is! Oh what a dirty solution.<br>The (functional) solution: stream through an IntStream of the first array. Filter down to only the indexes of mismatches (the INDEX, mind, not the value of the index). If there are no mismatches, then true. But if the length is two and if the filtered numbers match one to another at those indices in the arrays, then there's only one pair, and they can be swapped and True! Otherwise it'll evaluate to false. Nice. Very nice. IntStream is the way to iterate through an array. HAVE TO REMEMBER THAT.</td>
     </tr>
 </table>

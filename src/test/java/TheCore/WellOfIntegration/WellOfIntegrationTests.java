@@ -31,4 +31,24 @@ public class WellOfIntegrationTests {
             assertArrayEquals(resultInt, sL.solution(testInt));
         }
     }
+
+    @Nested
+    @DisplayName("Are Similar?")
+    public class AreSimilarTest {
+
+        AreSimilar aS = new AreSimilar();
+
+        @Test
+        public void aSTest1() {
+            int[] testA = new int[]{1, 2, 3};
+            int[] solutionA = new int[]{1, 2, 3};
+            assertTrue(aS.solution(testA, solutionA));
+        }
+        @Test
+        public void aSTest2() {
+            int[] testA = new int[]{1, 2, 3};
+            int[] solutionA = new int[]{2, 1, 3};
+            assertTrue(aS.solution(testA, solutionA));
+        }
+    }
 }
